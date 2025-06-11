@@ -67,6 +67,13 @@ export default function Page() {
                             >
                                 Get Involved
                             </button>
+                            <button
+                                onClick={() => scrollToSection('contact')}
+                                className="text-gray-600 hover:text-blue-600 transition-colors"
+                                data-oid="contact-nav"
+                            >
+                                Contact
+                            </button>
                         </div>
                     </div>
                 </nav>
@@ -76,28 +83,60 @@ export default function Page() {
                 {/* Hero Section */}
                 <section
                     id="home"
-                    className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-700 text-white"
+                    className="relative py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white via-blue-50 to-purple-50 overflow-hidden"
                     data-oid="pm31e58"
                 >
-                    <div className="max-w-7xl mx-auto text-center" data-oid="_5bmtv9">
+                    {/* Decorative elements */}
+                    <div className="absolute inset-0 overflow-hidden" data-oid="giqdtnf">
+                        <div
+                            className="absolute -top-40 -right-40 w-80 h-80 bg-blue-100 rounded-full opacity-20 blur-3xl"
+                            data-oid="x6wbjcn"
+                        ></div>
+                        <div
+                            className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-100 rounded-full opacity-20 blur-3xl"
+                            data-oid="qie8j2k"
+                        ></div>
+                    </div>
+
+                    <div className="relative max-w-7xl mx-auto text-center" data-oid="_5bmtv9">
+                        <div className="mb-8" data-oid="h-to.zz">
+                            <div
+                                className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-blue-200 shadow-sm mb-6"
+                                data-oid="cich.se"
+                            >
+                                <span
+                                    className="text-blue-600 font-medium text-sm"
+                                    data-oid="9ep7xvn"
+                                >
+                                    ✨ Transforming Lives Through Christ
+                                </span>
+                            </div>
+                        </div>
+
                         <h1
-                            className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
+                            className="text-5xl md:text-7xl font-bold mb-6 leading-tight bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent"
                             data-oid="w8qzt-m"
                         >
                             The Real Freedom
                         </h1>
-                        <h2 className="text-2xl md:text-3xl font-light mb-4" data-oid="w2f:nn7">
-                            Welcome to The Real Freedom
+
+                        <h2
+                            className="text-2xl md:text-3xl font-light mb-6 text-gray-700"
+                            data-oid="w2f:nn7"
+                        >
+                            Welcome to a Life of Purpose
                         </h2>
+
                         <p
-                            className="text-xl md:text-2xl font-medium mb-8 text-blue-100"
+                            className="text-xl md:text-2xl font-medium mb-8 text-blue-700 max-w-4xl mx-auto"
                             data-oid="75:riwj"
                         >
                             "Freedom Through Christ – Break the Chains, Embrace Life"
                         </p>
-                        <div className="max-w-4xl mx-auto" data-oid="e3vry3l">
+
+                        <div className="max-w-4xl mx-auto mb-12" data-oid="e3vry3l">
                             <p
-                                className="text-lg md:text-xl leading-relaxed text-blue-50"
+                                className="text-lg md:text-xl leading-relaxed text-gray-600"
                                 data-oid="0-gx1cu"
                             >
                                 True freedom is found in Christ. Life, as God intended, is meant to
@@ -107,6 +146,26 @@ export default function Page() {
                                 destinies. At The Real Freedom, we are here to break those lies and
                                 help the next generation rise into the life God designed for them.
                             </p>
+                        </div>
+
+                        <div
+                            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+                            data-oid="p-d7.so"
+                        >
+                            <button
+                                onClick={() => scrollToSection('mission')}
+                                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                                data-oid="6:s6:4_"
+                            >
+                                Discover Our Mission
+                            </button>
+                            <button
+                                onClick={() => scrollToSection('contact')}
+                                className="bg-white hover:bg-gray-50 text-blue-600 font-semibold py-4 px-8 rounded-full border-2 border-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                                data-oid=".dw9m7_"
+                            >
+                                Get in Touch
+                            </button>
                         </div>
                     </div>
                 </section>
@@ -663,6 +722,343 @@ export default function Page() {
                                 vision a reality. Let's walk together—toward healing, truth, and
                                 real freedom in Christ.
                             </p>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Contact Us Section */}
+                <section
+                    id="contact"
+                    className="py-20 px-4 sm:px-6 lg:px-8 bg-white"
+                    data-oid="contact-section"
+                >
+                    <div className="max-w-7xl mx-auto" data-oid="0bzvffd">
+                        <div className="text-center mb-16" data-oid="n9nuznl">
+                            <h2
+                                className="text-4xl md:text-5xl font-bold mb-6 text-gray-800"
+                                data-oid=":g-88l5"
+                            >
+                                📞 Contact Us
+                            </h2>
+                            <p
+                                className="text-lg text-gray-600 max-w-3xl mx-auto"
+                                data-oid="bp16d60"
+                            >
+                                Ready to take the first step toward real freedom? We're here to
+                                listen, support, and walk alongside you. Reach out to us today.
+                            </p>
+                        </div>
+
+                        <div
+                            className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto"
+                            data-oid="ne8d72q"
+                        >
+                            {/* Contact Information */}
+                            <div className="space-y-8" data-oid="e8_5g:a">
+                                <div data-oid="uhowg5o">
+                                    <h3
+                                        className="text-2xl font-semibold mb-6 text-gray-800"
+                                        data-oid="rx5cmyq"
+                                    >
+                                        Get in Touch
+                                    </h3>
+                                    <div className="space-y-6" data-oid="dd0czra">
+                                        <div
+                                            className="flex items-start space-x-4"
+                                            data-oid="26ga6lk"
+                                        >
+                                            <div
+                                                className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center"
+                                                data-oid="dcakhai"
+                                            >
+                                                <span
+                                                    className="text-blue-600 text-xl"
+                                                    data-oid="x32focx"
+                                                >
+                                                    📧
+                                                </span>
+                                            </div>
+                                            <div data-oid="6-0kbfj">
+                                                <h4
+                                                    className="font-semibold text-gray-800 mb-1"
+                                                    data-oid="vo34gcl"
+                                                >
+                                                    Email Us
+                                                </h4>
+                                                <p className="text-gray-600" data-oid="z8korpv">
+                                                    info@realfreedom.org
+                                                </p>
+                                                <p className="text-gray-600" data-oid="5ps31aw">
+                                                    support@realfreedom.org
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className="flex items-start space-x-4"
+                                            data-oid="mvr9vyi"
+                                        >
+                                            <div
+                                                className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center"
+                                                data-oid="827z:_j"
+                                            >
+                                                <span
+                                                    className="text-green-600 text-xl"
+                                                    data-oid="zc:fs_q"
+                                                >
+                                                    📱
+                                                </span>
+                                            </div>
+                                            <div data-oid="w58pk_t">
+                                                <h4
+                                                    className="font-semibold text-gray-800 mb-1"
+                                                    data-oid="nrnq0yj"
+                                                >
+                                                    Call Us
+                                                </h4>
+                                                <p className="text-gray-600" data-oid="c7ik8-c">
+                                                    +91 98765 43210
+                                                </p>
+                                                <p className="text-gray-600" data-oid="df3mmii">
+                                                    +91 87654 32109
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            className="flex items-start space-x-4"
+                                            data-oid="j:4ij3a"
+                                        >
+                                            <div
+                                                className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center"
+                                                data-oid="xinxg1_"
+                                            >
+                                                <span
+                                                    className="text-purple-600 text-xl"
+                                                    data-oid="lr.2ttq"
+                                                >
+                                                    📍
+                                                </span>
+                                            </div>
+                                            <div data-oid=":0.c_44">
+                                                <h4
+                                                    className="font-semibold text-gray-800 mb-1"
+                                                    data-oid="vjb1.ka"
+                                                >
+                                                    Visit Us
+                                                </h4>
+                                                <p className="text-gray-600" data-oid="vrkzwp3">
+                                                    Ooty Central Open Bible Church of God
+                                                    <br data-oid="x.s.m9i" />
+                                                    Ooty, Tamil Nadu, India
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="bg-blue-50 rounded-lg p-6" data-oid="1ln21jm">
+                                    <h4
+                                        className="font-semibold text-blue-800 mb-3"
+                                        data-oid="ubuagnj"
+                                    >
+                                        🤝 Need Immediate Support?
+                                    </h4>
+                                    <p
+                                        className="text-blue-700 text-sm leading-relaxed"
+                                        data-oid="t-:jr1m"
+                                    >
+                                        If you're struggling with addiction or need someone to talk
+                                        to right now, don't hesitate to reach out. We provide
+                                        confidential support and are here to help you take the first
+                                        step toward freedom.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Contact Form */}
+                            <div className="bg-gray-50 rounded-xl p-8" data-oid="393.yzl">
+                                <h3
+                                    className="text-2xl font-semibold mb-6 text-gray-800"
+                                    data-oid="jjofnm4"
+                                >
+                                    Send Us a Message
+                                </h3>
+                                <form className="space-y-6" data-oid="g1.46mo">
+                                    <div className="grid md:grid-cols-2 gap-4" data-oid="1qi06k0">
+                                        <div data-oid="s2dmrcu">
+                                            <label
+                                                htmlFor="firstName"
+                                                className="block text-sm font-medium text-gray-700 mb-2"
+                                                data-oid="k-peiws"
+                                            >
+                                                First Name *
+                                            </label>
+                                            <input
+                                                type="text"
+                                                id="firstName"
+                                                name="firstName"
+                                                required
+                                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                                                placeholder="Your first name"
+                                                data-oid="0jdqu0h"
+                                            />
+                                        </div>
+                                        <div data-oid="nzwuoh.">
+                                            <label
+                                                htmlFor="lastName"
+                                                className="block text-sm font-medium text-gray-700 mb-2"
+                                                data-oid="5slov06"
+                                            >
+                                                Last Name *
+                                            </label>
+                                            <input
+                                                type="text"
+                                                id="lastName"
+                                                name="lastName"
+                                                required
+                                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                                                placeholder="Your last name"
+                                                data-oid="7tgat9b"
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <div data-oid="lt95jsx">
+                                        <label
+                                            htmlFor="email"
+                                            className="block text-sm font-medium text-gray-700 mb-2"
+                                            data-oid="i5v3y_x"
+                                        >
+                                            Email Address *
+                                        </label>
+                                        <input
+                                            type="email"
+                                            id="email"
+                                            name="email"
+                                            required
+                                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                                            placeholder="your.email@example.com"
+                                            data-oid="y_vw28_"
+                                        />
+                                    </div>
+
+                                    <div data-oid="hp7eaiw">
+                                        <label
+                                            htmlFor="phone"
+                                            className="block text-sm font-medium text-gray-700 mb-2"
+                                            data-oid="hpbm1d-"
+                                        >
+                                            Phone Number
+                                        </label>
+                                        <input
+                                            type="tel"
+                                            id="phone"
+                                            name="phone"
+                                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                                            placeholder="+91 98765 43210"
+                                            data-oid="qa9svrz"
+                                        />
+                                    </div>
+
+                                    <div data-oid="v:5:td.">
+                                        <label
+                                            htmlFor="subject"
+                                            className="block text-sm font-medium text-gray-700 mb-2"
+                                            data-oid="u8gohlg"
+                                        >
+                                            Subject *
+                                        </label>
+                                        <select
+                                            id="subject"
+                                            name="subject"
+                                            required
+                                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                                            data-oid="ab6hoab"
+                                        >
+                                            <option value="" data-oid="-l7bm9o">
+                                                Select a subject
+                                            </option>
+                                            <option value="seeking-help" data-oid="91n1y74">
+                                                Seeking Help
+                                            </option>
+                                            <option value="volunteer" data-oid="3-e74dd">
+                                                Volunteer Opportunities
+                                            </option>
+                                            <option value="prayer-partner" data-oid="wpkm8sj">
+                                                Become a Prayer Partner
+                                            </option>
+                                            <option value="donation" data-oid="7ckg44k">
+                                                Donation Inquiry
+                                            </option>
+                                            <option value="general" data-oid="qduyyr-">
+                                                General Inquiry
+                                            </option>
+                                            <option value="other" data-oid=":dfqakb">
+                                                Other
+                                            </option>
+                                        </select>
+                                    </div>
+
+                                    <div data-oid="a2oyojm">
+                                        <label
+                                            htmlFor="message"
+                                            className="block text-sm font-medium text-gray-700 mb-2"
+                                            data-oid="cpbir44"
+                                        >
+                                            Message *
+                                        </label>
+                                        <textarea
+                                            id="message"
+                                            name="message"
+                                            rows={5}
+                                            required
+                                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors resize-vertical"
+                                            placeholder="Please share your message, questions, or how we can help you..."
+                                            data-oid="abxqgcz"
+                                        ></textarea>
+                                    </div>
+
+                                    <div className="flex items-start space-x-3" data-oid="rwf_d4e">
+                                        <input
+                                            type="checkbox"
+                                            id="privacy"
+                                            name="privacy"
+                                            required
+                                            className="mt-1 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+                                            data-oid="mdyp.m3"
+                                        />
+
+                                        <label
+                                            htmlFor="privacy"
+                                            className="text-sm text-gray-600"
+                                            data-oid="9l.12b6"
+                                        >
+                                            I agree to the privacy policy and understand that my
+                                            information will be kept confidential. *
+                                        </label>
+                                    </div>
+
+                                    <button
+                                        type="submit"
+                                        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                                        data-oid="-krasr1"
+                                    >
+                                        Send Message 📤
+                                    </button>
+                                </form>
+
+                                <div
+                                    className="mt-6 p-4 bg-green-50 rounded-lg border border-green-200"
+                                    data-oid="00tyfb4"
+                                >
+                                    <p className="text-green-800 text-sm" data-oid="ejzyxic">
+                                        🔒 <strong data-oid=".mldm:f">Your privacy matters:</strong>{' '}
+                                        All communications are confidential. We're here to support
+                                        you without judgment.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
