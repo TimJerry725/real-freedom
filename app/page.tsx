@@ -1087,17 +1087,28 @@ export default function Page() {
                                                 <span
                                                     className={
                                                         selectedSubject
-                                                            ? 'text-gray-900'
+                                                            ? 'text-gray-900 flex items-center'
                                                             : 'text-gray-500'
                                                     }
                                                     data-oid="xyg82x3"
                                                 >
-                                                    {selectedSubject
-                                                        ? subjectOptions.find(
-                                                              (opt) =>
-                                                                  opt.value === selectedSubject,
-                                                          )?.label
-                                                        : 'Select a subject'}
+                                                    {selectedSubject ? (
+                                                        <>
+                                                            <i
+                                                                className={`${subjectOptions.find((opt) => opt.value === selectedSubject)?.icon} ${subjectOptions.find((opt) => opt.value === selectedSubject)?.color} mr-2`}
+                                                                data-oid="4q6lgn7"
+                                                            ></i>
+                                                            {
+                                                                subjectOptions.find(
+                                                                    (opt) =>
+                                                                        opt.value ===
+                                                                        selectedSubject,
+                                                                )?.label
+                                                            }
+                                                        </>
+                                                    ) : (
+                                                        'Select a subject'
+                                                    )}
                                                 </span>
                                                 <svg
                                                     className={`w-5 h-5 text-gray-400 transition-transform duration-200 ${
@@ -1138,13 +1149,17 @@ export default function Page() {
                                                                 data-oid="svh3bb_"
                                                             >
                                                                 <span
-                                                                    className="font-medium text-gray-900"
+                                                                    className="font-medium text-gray-900 flex items-center"
                                                                     data-oid="3-cba9c"
                                                                 >
+                                                                    <i
+                                                                        className={`${option.icon} ${option.color} mr-3`}
+                                                                        data-oid="1k7bbaa"
+                                                                    ></i>
                                                                     {option.label}
                                                                 </span>
                                                                 <span
-                                                                    className="text-sm text-gray-500 mt-1"
+                                                                    className="text-sm text-gray-500 mt-1 ml-6"
                                                                     data-oid="-whpr-c"
                                                                 >
                                                                     {option.description}
