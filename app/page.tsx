@@ -505,10 +505,14 @@ export default function Page() {
                                 data-oid="dicc00g"
                             >
                                 <h3
-                                    className="text-3xl font-bold mb-6 text-red-600"
+                                    className="text-3xl font-bold mb-6 text-red-600 flex items-center"
                                     data-oid="oc1jbn2"
                                 >
-                                    1. Expose the Lies
+                                    <i
+                                        className="fas fa-eye text-red-600 mr-4"
+                                        data-oid="offax-a"
+                                    ></i>
+                                    Expose the Lies
                                 </h3>
                                 <p
                                     className="text-lg leading-relaxed text-gray-700 mb-6"
@@ -554,10 +558,14 @@ export default function Page() {
                                 data-oid="ihk2pqm"
                             >
                                 <h3
-                                    className="text-3xl font-bold mb-6 text-blue-600"
+                                    className="text-3xl font-bold mb-6 text-blue-600 flex items-center"
                                     data-oid="sth:u5u"
                                 >
-                                    2. Offer Real Hope
+                                    <i
+                                        className="fas fa-hands-helping text-blue-600 mr-4"
+                                        data-oid="cpeoex3"
+                                    ></i>
+                                    Offer Real Hope
                                 </h3>
                                 <p
                                     className="text-lg leading-relaxed text-gray-700 mb-6"
@@ -601,10 +609,14 @@ export default function Page() {
                                 data-oid="tfv.0re"
                             >
                                 <h3
-                                    className="text-3xl font-bold mb-6 text-green-600"
+                                    className="text-3xl font-bold mb-6 text-green-600 flex items-center"
                                     data-oid="r_kkfe5"
                                 >
-                                    3. Walk in Freedom
+                                    <i
+                                        className="fas fa-walking text-green-600 mr-4"
+                                        data-oid="mw3zzqc"
+                                    ></i>
+                                    Walk in Freedom
                                 </h3>
                                 <p
                                     className="text-lg leading-relaxed text-gray-700 mb-6"
