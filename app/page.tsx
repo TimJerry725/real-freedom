@@ -1014,7 +1014,7 @@ export default function Page() {
                                         />
                                     </div>
 
-                                    <div data-oid="v:5:td.">
+                                    <div className="relative" data-dropdown data-oid="v:5:td.">
                                         <label
                                             htmlFor="subject"
                                             className="block text-sm font-medium text-gray-700 mb-2"
@@ -1022,35 +1022,91 @@ export default function Page() {
                                         >
                                             Subject *
                                         </label>
-                                        <select
-                                            id="subject"
+                                        <div className="relative" data-oid="cw3t38k">
+                                            <button
+                                                type="button"
+                                                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                                                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors bg-white text-left flex items-center justify-between"
+                                                data-oid="n2fp6j1"
+                                            >
+                                                <span
+                                                    className={
+                                                        selectedSubject
+                                                            ? 'text-gray-900'
+                                                            : 'text-gray-500'
+                                                    }
+                                                    data-oid="xyg82x3"
+                                                >
+                                                    {selectedSubject
+                                                        ? subjectOptions.find(
+                                                              (opt) =>
+                                                                  opt.value === selectedSubject,
+                                                          )?.label
+                                                        : 'Select a subject'}
+                                                </span>
+                                                <svg
+                                                    className={`w-5 h-5 text-gray-400 transition-transform duration-200 ${
+                                                        isDropdownOpen ? 'rotate-180' : ''
+                                                    }`}
+                                                    fill="none"
+                                                    stroke="currentColor"
+                                                    viewBox="0 0 24 24"
+                                                    data-oid="xd.m37e"
+                                                >
+                                                    <path
+                                                        strokeLinecap="round"
+                                                        strokeLinejoin="round"
+                                                        strokeWidth={2}
+                                                        d="M19 9l-7 7-7-7"
+                                                        data-oid="11ufr26"
+                                                    />
+                                                </svg>
+                                            </button>
+
+                                            {isDropdownOpen && (
+                                                <div
+                                                    className="absolute z-10 w-full mt-1 bg-white border border-gray-300 rounded-lg shadow-lg max-h-60 overflow-auto"
+                                                    data-oid="90v:e30"
+                                                >
+                                                    {subjectOptions.map((option) => (
+                                                        <button
+                                                            key={option.value}
+                                                            type="button"
+                                                            onClick={() =>
+                                                                handleSubjectSelect(option)
+                                                            }
+                                                            className="w-full px-4 py-3 text-left hover:bg-blue-50 focus:bg-blue-50 focus:outline-none transition-colors border-b border-gray-100 last:border-b-0"
+                                                            data-oid="4g3bs-v"
+                                                        >
+                                                            <div
+                                                                className="flex flex-col"
+                                                                data-oid="svh3bb_"
+                                                            >
+                                                                <span
+                                                                    className="font-medium text-gray-900"
+                                                                    data-oid="3-cba9c"
+                                                                >
+                                                                    {option.label}
+                                                                </span>
+                                                                <span
+                                                                    className="text-sm text-gray-500 mt-1"
+                                                                    data-oid="-whpr-c"
+                                                                >
+                                                                    {option.description}
+                                                                </span>
+                                                            </div>
+                                                        </button>
+                                                    ))}
+                                                </div>
+                                            )}
+                                        </div>
+                                        <input
+                                            type="hidden"
                                             name="subject"
+                                            value={selectedSubject}
                                             required
-                                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                                            data-oid="ab6hoab"
-                                        >
-                                            <option value="" data-oid="-l7bm9o">
-                                                Select a subject
-                                            </option>
-                                            <option value="seeking-help" data-oid="91n1y74">
-                                                Seeking Help
-                                            </option>
-                                            <option value="volunteer" data-oid="3-e74dd">
-                                                Volunteer Opportunities
-                                            </option>
-                                            <option value="prayer-partner" data-oid="wpkm8sj">
-                                                Become a Prayer Partner
-                                            </option>
-                                            <option value="donation" data-oid="7ckg44k">
-                                                Donation Inquiry
-                                            </option>
-                                            <option value="general" data-oid="qduyyr-">
-                                                General Inquiry
-                                            </option>
-                                            <option value="other" data-oid=":dfqakb">
-                                                Other
-                                            </option>
-                                        </select>
+                                            data-oid="aljxy_m"
+                                        />
                                     </div>
 
                                     <div data-oid="a2oyojm">
