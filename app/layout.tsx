@@ -17,8 +17,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                     crossOrigin="anonymous"
                     data-oid="m:_i9m2"
                 />
+
                 <link
-                    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap"
+                    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Inter:wght@300;400;500;600;700&display=swap"
                     rel="stylesheet"
                     data-oid="0n-40vq"
                 />

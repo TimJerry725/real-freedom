@@ -98,7 +98,7 @@ export default function Page() {
                 <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4" data-oid="dyzw1g-">
                     <div className="flex justify-between items-center" data-oid="px9d0p4">
                         <div
-                            className="text-2xl font-bold text-blue-600 font-playfair"
+                            className="text-2xl font-bold text-blue-600 font-merriweather"
                             data-oid="bqvu.dj"
                         >
                             The Real Freedom
@@ -190,7 +190,7 @@ export default function Page() {
                         </div>
 
                         <h1
-                            className="text-5xl md:text-7xl font-bold mb-6 leading-tight bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent font-playfair"
+                            className="text-5xl md:text-7xl font-bold mb-6 leading-tight bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent font-merriweather"
                             data-oid="w8qzt-m"
                         >
                             The Real Freedom
@@ -250,7 +250,7 @@ export default function Page() {
                 <section id="vision" className="py-20 px-4 sm:px-6 lg:px-8" data-oid="gx.ksxw">
                     <div className="max-w-7xl mx-auto" data-oid="._0wppp">
                         <h2
-                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-playfair"
+                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-merriweather"
                             data-oid="k5lxv8w"
                         >
                             <i
@@ -372,7 +372,7 @@ export default function Page() {
                 >
                     <div className="max-w-7xl mx-auto" data-oid="rs5zn:c">
                         <h2
-                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-playfair"
+                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-merriweather"
                             data-oid="t7rmfk."
                         >
                             <i className="fas fa-users text-blue-600 mr-4" data-oid="bv-kk3v"></i>
@@ -479,7 +479,7 @@ export default function Page() {
                 <section id="mission" className="py-20 px-4 sm:px-6 lg:px-8" data-oid="n5j8djt">
                     <div className="max-w-7xl mx-auto" data-oid="ai5fdxa">
                         <h2
-                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-playfair"
+                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-merriweather"
                             data-oid="p0:pc7q"
                         >
                             <i className="fas fa-bullseye text-red-600 mr-4" data-oid="imb3_zm"></i>
@@ -674,7 +674,7 @@ export default function Page() {
                 >
                     <div className="max-w-7xl mx-auto" data-oid="eh-5:_w">
                         <h2
-                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-playfair"
+                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-merriweather"
                             data-oid="asm8kz9"
                         >
                             <i
@@ -697,7 +697,7 @@ export default function Page() {
                             {/* Seeking Help */}
                             <div className="bg-white rounded-lg shadow-lg p-8" data-oid="669k:o:">
                                 <h3
-                                    className="text-2xl font-semibold mb-4 text-blue-600 font-playfair"
+                                    className="text-2xl font-semibold mb-4 text-blue-600 font-merriweather"
                                     data-oid="3rrtkwn"
                                 >
                                     <i
@@ -729,7 +729,7 @@ export default function Page() {
                             {/* Volunteer */}
                             <div className="bg-white rounded-lg shadow-lg p-8" data-oid="bs8m2hf">
                                 <h3
-                                    className="text-2xl font-semibold mb-4 text-green-600 font-playfair"
+                                    className="text-2xl font-semibold mb-4 text-green-600 font-merriweather"
                                     data-oid="pk513:u"
                                 >
                                     <i
@@ -770,7 +770,7 @@ export default function Page() {
                             {/* Prayer Partner */}
                             <div className="bg-white rounded-lg shadow-lg p-8" data-oid="v6-z8zz">
                                 <h3
-                                    className="text-2xl font-semibold mb-4 text-purple-600 font-playfair"
+                                    className="text-2xl font-semibold mb-4 text-purple-600 font-merriweather"
                                     data-oid="pdj9ltj"
                                 >
                                     <i
@@ -790,7 +790,7 @@ export default function Page() {
                             {/* Donate */}
                             <div className="bg-white rounded-lg shadow-lg p-8" data-oid="cy7gijm">
                                 <h3
-                                    className="text-2xl font-semibold mb-4 text-yellow-600 font-playfair"
+                                    className="text-2xl font-semibold mb-4 text-yellow-600 font-merriweather"
                                     data-oid="dp8ao:2"
                                 >
                                     <i
@@ -821,7 +821,7 @@ export default function Page() {
 
                         <div className="text-center" data-oid="s1hyl3-">
                             <h3
-                                className="text-3xl font-semibold mb-6 text-gray-800 font-playfair"
+                                className="text-3xl font-semibold mb-6 text-gray-800 font-merriweather"
                                 data-oid="dd:in1u"
                             >
                                 <i
@@ -853,7 +853,7 @@ export default function Page() {
                     <div className="max-w-7xl mx-auto" data-oid="0bzvffd">
                         <div className="text-center mb-16" data-oid="n9nuznl">
                             <h2
-                                className="text-4xl md:text-5xl font-bold mb-6 text-gray-800 font-playfair"
+                                className="text-4xl md:text-5xl font-bold mb-6 text-gray-800 font-merriweather"
                                 data-oid=":g-88l5"
                             >
                                 <i
@@ -1268,7 +1268,7 @@ export default function Page() {
                 data-oid="n_f04_6"
             >
                 <div className="max-w-7xl mx-auto text-center" data-oid="74od5eb">
-                    <div className="text-2xl font-bold mb-4 font-playfair" data-oid="c712k32">
+                    <div className="text-2xl font-bold mb-4 font-merriweather" data-oid="c712k32">
                         The Real Freedom
                     </div>
                     <p className="text-gray-300 mb-4" data-oid="-vl8n6i">
