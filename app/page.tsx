@@ -4,10 +4,63 @@ import { useState, useEffect } from 'react';
 
 export default function Page() {
     const [isVisible, setIsVisible] = useState(false);
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const [selectedSubject, setSelectedSubject] = useState('');
 
     useEffect(() => {
         setIsVisible(true);
     }, []);
+
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            const target = event.target as Element;
+            if (!target.closest('[data-dropdown]')) {
+                setIsDropdownOpen(false);
+            }
+        };
+
+        if (isDropdownOpen) {
+            document.addEventListener('mousedown', handleClickOutside);
+        }
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [isDropdownOpen]);
+
+    const subjectOptions = [
+        {
+            value: 'seeking-help',
+            label: '🤝 Seeking Help',
+            description: 'Need support or counseling',
+        },
+        {
+            value: 'volunteer',
+            label: '🙋‍♂️ Volunteer Opportunities',
+            description: 'Want to join our team',
+        },
+        {
+            value: 'prayer-partner',
+            label: '🙏 Become a Prayer Partner',
+            description: 'Commit to pray with us',
+        },
+        {
+            value: 'donation',
+            label: '💝 Donation Inquiry',
+            description: 'Support our mission financially',
+        },
+        {
+            value: 'general',
+            label: '💬 General Inquiry',
+            description: 'Questions about our ministry',
+        },
+        { value: 'other', label: '📋 Other', description: 'Something else' },
+    ];
+
+    const handleSubjectSelect = (option: (typeof subjectOptions)[0]) => {
+        setSelectedSubject(option.value);
+        setIsDropdownOpen(false);
+    };
 
     const scrollToSection = (sectionId: string) => {
         const element = document.getElementById(sectionId);
