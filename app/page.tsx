@@ -260,93 +260,6 @@ export default function Page() {
                             Our Vision – Real Freedom Ministry
                         </h2>
 
-                        {/* Vision Images */}
-                        <div className="grid md:grid-cols-3 gap-8 mb-12" data-oid="l2sdwx4">
-                            <div className="text-center" data-oid="-n2.hy5">
-                                <div
-                                    className="relative w-full h-48 mb-4 rounded-lg overflow-hidden shadow-lg"
-                                    data-oid="uq.4d.:"
-                                >
-                                    <img
-                                        src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
-                                        alt="Growth and transformation in nature"
-                                        className="w-full h-full object-cover"
-                                        data-oid="yaubflf"
-                                    />
-
-                                    <div
-                                        className="absolute inset-0 bg-green-600 bg-opacity-20"
-                                        data-oid="ycc8hjv"
-                                    ></div>
-                                </div>
-                                <h4
-                                    className="text-lg font-semibold text-green-600 mb-2"
-                                    data-oid="sl14phs"
-                                >
-                                    Growth & Transformation
-                                </h4>
-                                <p className="text-sm text-gray-600" data-oid="dqm8yni">
-                                    From small beginnings to mighty purpose
-                                </p>
-                            </div>
-
-                            <div className="text-center" data-oid="sh3hyq6">
-                                <div
-                                    className="relative w-full h-48 mb-4 rounded-lg overflow-hidden shadow-lg"
-                                    data-oid="3ik5yxv"
-                                >
-                                    <img
-                                        src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80"
-                                        alt="Mountain sunrise representing hope"
-                                        className="w-full h-full object-cover"
-                                        data-oid=":7gt-:2"
-                                    />
-
-                                    <div
-                                        className="absolute inset-0 bg-blue-600 bg-opacity-20"
-                                        data-oid="8xmojla"
-                                    ></div>
-                                </div>
-                                <h4
-                                    className="text-lg font-semibold text-blue-600 mb-2"
-                                    data-oid="gu8o-_s"
-                                >
-                                    New Beginnings
-                                </h4>
-                                <p className="text-sm text-gray-600" data-oid="ge464xd">
-                                    Every sunrise brings fresh hope
-                                </p>
-                            </div>
-
-                            <div className="text-center" data-oid="p.e:h-d">
-                                <div
-                                    className="relative w-full h-48 mb-4 rounded-lg overflow-hidden shadow-lg"
-                                    data-oid="v1dc7fc"
-                                >
-                                    <img
-                                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80"
-                                        alt="Person with arms raised in freedom"
-                                        className="w-full h-full object-cover"
-                                        data-oid=":5bsqlu"
-                                    />
-
-                                    <div
-                                        className="absolute inset-0 bg-purple-600 bg-opacity-20"
-                                        data-oid="mnevapz"
-                                    ></div>
-                                </div>
-                                <h4
-                                    className="text-lg font-semibold text-purple-600 mb-2"
-                                    data-oid="_4qfq4r"
-                                >
-                                    True Freedom
-                                </h4>
-                                <p className="text-sm text-gray-600" data-oid="7ii-1d3">
-                                    Living in the fullness of God's design
-                                </p>
-                            </div>
-                        </div>
-
                         <div className="max-w-4xl mx-auto space-y-12" data-oid="4il1gjm">
                             <p className="text-lg leading-relaxed text-gray-700" data-oid="ohj-60:">
                                 At Real Freedom Ministry, we believe that real freedom is more than
@@ -780,65 +693,6 @@ export default function Page() {
                             </p>
                         </div>
 
-                        {/* Get Involved Images */}
-                        <div className="grid md:grid-cols-2 gap-8 mb-16" data-oid="betgy::">
-                            <div
-                                className="relative h-64 rounded-xl overflow-hidden shadow-lg"
-                                data-oid="odmx6o2"
-                            >
-                                <img
-                                    src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"
-                                    alt="Volunteers working together in community service"
-                                    className="w-full h-full object-cover"
-                                    data-oid="_xmeoco"
-                                />
-
-                                <div
-                                    className="absolute inset-0 bg-purple-600 bg-opacity-30"
-                                    data-oid="ux8.nid"
-                                ></div>
-                                <div
-                                    className="absolute bottom-4 left-4 text-white"
-                                    data-oid="8kgnpsl"
-                                >
-                                    <h4 className="text-lg font-bold mb-1" data-oid="34v:7uk">
-                                        Volunteer & Serve
-                                    </h4>
-                                    <p className="text-sm opacity-90" data-oid="rrm..kp">
-                                        Join our mission of transformation
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div
-                                className="relative h-64 rounded-xl overflow-hidden shadow-lg"
-                                data-oid="t9qpcxc"
-                            >
-                                <img
-                                    src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                                    alt="People praying together in unity"
-                                    className="w-full h-full object-cover"
-                                    data-oid="t.enuao"
-                                />
-
-                                <div
-                                    className="absolute inset-0 bg-blue-600 bg-opacity-30"
-                                    data-oid="qdz9ma9"
-                                ></div>
-                                <div
-                                    className="absolute bottom-4 left-4 text-white"
-                                    data-oid="3f9odbk"
-                                >
-                                    <h4 className="text-lg font-bold mb-1" data-oid="axzep:7">
-                                        Prayer & Support
-                                    </h4>
-                                    <p className="text-sm opacity-90" data-oid=":qb8rvj">
-                                        Stand with us in faith and prayer
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
                         <div className="grid md:grid-cols-2 gap-8 mb-16" data-oid="apjj.la">
                             {/* Seeking Help */}
                             <div className="bg-white rounded-lg shadow-lg p-8" data-oid="vkyn8zp">
@@ -934,52 +788,34 @@ export default function Page() {
                             </div>
 
                             {/* Donate */}
-                            <div
-                                className="bg-white rounded-lg shadow-lg overflow-hidden"
-                                data-oid="ejt7hje"
-                            >
-                                <div className="relative h-48" data-oid="m8txly2">
-                                    <img
-                                        src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                                        alt="Hands giving and receiving support"
-                                        className="w-full h-full object-cover"
-                                        data-oid="58-ze2y"
-                                    />
-
-                                    <div
-                                        className="absolute inset-0 bg-yellow-600 bg-opacity-20"
-                                        data-oid="siz3y70"
-                                    ></div>
-                                </div>
-                                <div className="p-8" data-oid="xjs_jwu">
-                                    <h3
-                                        className="text-2xl font-semibold mb-4 text-yellow-600 font-merriweather"
-                                        data-oid="32ppruk"
-                                    >
-                                        <i
-                                            className="fas fa-heart text-yellow-600 mr-3"
-                                            data-oid="z3ym774"
-                                        ></i>
-                                        Support the Mission – Donate
-                                    </h3>
-                                    <p
-                                        className="text-gray-700 leading-relaxed mb-6"
-                                        data-oid="0p2u.3w"
-                                    >
-                                        Your generosity fuels freedom. By partnering with us
-                                        financially, you help us reach more youth, develop
-                                        life-changing resources, provide counseling and mentorship,
-                                        and host outreach events across India. Every gift, large or
-                                        small, goes directly into the work of transformation.
-                                    </p>
-                                    <button
-                                        onClick={() => alert('Donate clicked!')}
-                                        className="bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors w-full"
-                                        data-oid="q8yjnpj"
-                                    >
-                                        👉 Donate
-                                    </button>
-                                </div>
+                            <div className="bg-white rounded-lg shadow-lg p-8" data-oid="ejt7hje">
+                                <h3
+                                    className="text-2xl font-semibold mb-4 text-yellow-600 font-merriweather"
+                                    data-oid="32ppruk"
+                                >
+                                    <i
+                                        className="fas fa-heart text-yellow-600 mr-3"
+                                        data-oid="z3ym774"
+                                    ></i>
+                                    Support the Mission – Donate
+                                </h3>
+                                <p
+                                    className="text-gray-700 leading-relaxed mb-6"
+                                    data-oid="0p2u.3w"
+                                >
+                                    Your generosity fuels freedom. By partnering with us
+                                    financially, you help us reach more youth, develop life-changing
+                                    resources, provide counseling and mentorship, and host outreach
+                                    events across India. Every gift, large or small, goes directly
+                                    into the work of transformation.
+                                </p>
+                                <button
+                                    onClick={() => alert('Donate clicked!')}
+                                    className="bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors w-full"
+                                    data-oid="q8yjnpj"
+                                >
+                                    👉 Donate
+                                </button>
                             </div>
                         </div>
 
@@ -1033,93 +869,6 @@ export default function Page() {
                                 Ready to take the first step toward real freedom? We're here to
                                 listen, support, and walk alongside you. Reach out to us today.
                             </p>
-                        </div>
-
-                        {/* Contact Images */}
-                        <div className="grid md:grid-cols-3 gap-8 mb-16" data-oid=":yviwbw">
-                            <div className="text-center" data-oid="4oe-iah">
-                                <div
-                                    className="relative w-full h-48 mb-4 rounded-lg overflow-hidden shadow-lg"
-                                    data-oid="j25eo86"
-                                >
-                                    <img
-                                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                                        alt="Phone and email communication"
-                                        className="w-full h-full object-cover"
-                                        data-oid="wkufnir"
-                                    />
-
-                                    <div
-                                        className="absolute inset-0 bg-blue-600 bg-opacity-20"
-                                        data-oid="50ksnxw"
-                                    ></div>
-                                </div>
-                                <h4
-                                    className="text-lg font-semibold text-blue-600 mb-2"
-                                    data-oid="owl88_s"
-                                >
-                                    Get in Touch
-                                </h4>
-                                <p className="text-sm text-gray-600" data-oid="-sn0u95">
-                                    Call, email, or visit us anytime
-                                </p>
-                            </div>
-
-                            <div className="text-center" data-oid=":g0mg.h">
-                                <div
-                                    className="relative w-full h-48 mb-4 rounded-lg overflow-hidden shadow-lg"
-                                    data-oid="6pk.kol"
-                                >
-                                    <img
-                                        src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
-                                        alt="Confidential counseling session"
-                                        className="w-full h-full object-cover"
-                                        data-oid="w.guvsr"
-                                    />
-
-                                    <div
-                                        className="absolute inset-0 bg-green-600 bg-opacity-20"
-                                        data-oid="__cj7t."
-                                    ></div>
-                                </div>
-                                <h4
-                                    className="text-lg font-semibold text-green-600 mb-2"
-                                    data-oid="sog47n-"
-                                >
-                                    Safe Space
-                                </h4>
-                                <p className="text-sm text-gray-600" data-oid="3bg5:04">
-                                    Confidential and judgment-free support
-                                </p>
-                            </div>
-
-                            <div className="text-center" data-oid="os_zyvg">
-                                <div
-                                    className="relative w-full h-48 mb-4 rounded-lg overflow-hidden shadow-lg"
-                                    data-oid="k.y.4x0"
-                                >
-                                    <img
-                                        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2084&q=80"
-                                        alt="Team ready to help and support"
-                                        className="w-full h-full object-cover"
-                                        data-oid="ucg8h4_"
-                                    />
-
-                                    <div
-                                        className="absolute inset-0 bg-purple-600 bg-opacity-20"
-                                        data-oid="..ezvac"
-                                    ></div>
-                                </div>
-                                <h4
-                                    className="text-lg font-semibold text-purple-600 mb-2"
-                                    data-oid="2vhjmmr"
-                                >
-                                    Ready to Help
-                                </h4>
-                                <p className="text-sm text-gray-600" data-oid=":zjcez0">
-                                    Our team is here for you
-                                </p>
-                            </div>
                         </div>
 
                         <div
