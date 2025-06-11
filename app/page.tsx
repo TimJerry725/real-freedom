@@ -31,30 +31,46 @@ export default function Page() {
     const subjectOptions = [
         {
             value: 'seeking-help',
-            label: '🤝 Seeking Help',
+            label: 'Seeking Help',
+            icon: 'fas fa-hand-holding-heart',
+            color: 'text-blue-600',
             description: 'Need support or counseling',
         },
         {
             value: 'volunteer',
-            label: '🙋‍♂️ Volunteer Opportunities',
+            label: 'Volunteer Opportunities',
+            icon: 'fas fa-handshake',
+            color: 'text-green-600',
             description: 'Want to join our team',
         },
         {
             value: 'prayer-partner',
-            label: '🙏 Become a Prayer Partner',
+            label: 'Become a Prayer Partner',
+            icon: 'fas fa-praying-hands',
+            color: 'text-purple-600',
             description: 'Commit to pray with us',
         },
         {
             value: 'donation',
-            label: '💝 Donation Inquiry',
+            label: 'Donation Inquiry',
+            icon: 'fas fa-heart',
+            color: 'text-red-600',
             description: 'Support our mission financially',
         },
         {
             value: 'general',
-            label: '💬 General Inquiry',
+            label: 'General Inquiry',
+            icon: 'fas fa-comments',
+            color: 'text-indigo-600',
             description: 'Questions about our ministry',
         },
-        { value: 'other', label: '📋 Other', description: 'Something else' },
+        {
+            value: 'other',
+            label: 'Other',
+            icon: 'fas fa-ellipsis-h',
+            color: 'text-gray-600',
+            description: 'Something else',
+        },
     ];
 
     const handleSubjectSelect = (option: (typeof subjectOptions)[0]) => {
@@ -71,7 +87,7 @@ export default function Page() {
 
     return (
         <div
-            className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 text-gray-800 font-['Inter']"
+            className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 text-gray-800 font-inter"
             data-oid="8.py96_"
         >
             {/* Header */}
@@ -81,7 +97,10 @@ export default function Page() {
             >
                 <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4" data-oid="dyzw1g-">
                     <div className="flex justify-between items-center" data-oid="px9d0p4">
-                        <div className="text-2xl font-bold text-blue-600" data-oid="bqvu.dj">
+                        <div
+                            className="text-2xl font-bold text-blue-600 font-playfair"
+                            data-oid="bqvu.dj"
+                        >
                             The Real Freedom
                         </div>
                         <div className="hidden md:flex space-x-8" data-oid="bwgj_mj">
@@ -157,17 +176,21 @@ export default function Page() {
                                 className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-blue-200 shadow-sm mb-6"
                                 data-oid="cich.se"
                             >
+                                <i
+                                    className="fas fa-star text-blue-600 mr-2"
+                                    data-oid="ohkz066"
+                                ></i>
                                 <span
                                     className="text-blue-600 font-medium text-sm"
                                     data-oid="9ep7xvn"
                                 >
-                                    ✨ Transforming Lives Through Christ
+                                    Transforming Lives Through Christ
                                 </span>
                             </div>
                         </div>
 
                         <h1
-                            className="text-5xl md:text-7xl font-bold mb-6 leading-tight bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent"
+                            className="text-5xl md:text-7xl font-bold mb-6 leading-tight bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent font-playfair"
                             data-oid="w8qzt-m"
                         >
                             The Real Freedom
@@ -227,10 +250,14 @@ export default function Page() {
                 <section id="vision" className="py-20 px-4 sm:px-6 lg:px-8" data-oid="gx.ksxw">
                     <div className="max-w-7xl mx-auto" data-oid="._0wppp">
                         <h2
-                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800"
+                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-playfair"
                             data-oid="k5lxv8w"
                         >
-                            🌱 Our Vision – Real Freedom Ministry
+                            <i
+                                className="fas fa-seedling text-green-600 mr-4"
+                                data-oid="5upo1ix"
+                            ></i>
+                            Our Vision – Real Freedom Ministry
                         </h2>
 
                         <div className="max-w-4xl mx-auto space-y-12" data-oid="xle67v1">
@@ -345,9 +372,10 @@ export default function Page() {
                 >
                     <div className="max-w-7xl mx-auto" data-oid="rs5zn:c">
                         <h2
-                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800"
+                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-playfair"
                             data-oid="t7rmfk."
                         >
+                            <i className="fas fa-users text-blue-600 mr-4" data-oid="bv-kk3v"></i>
                             Who We Are
                         </h2>
 
@@ -451,9 +479,10 @@ export default function Page() {
                 <section id="mission" className="py-20 px-4 sm:px-6 lg:px-8" data-oid="n5j8djt">
                     <div className="max-w-7xl mx-auto" data-oid="ai5fdxa">
                         <h2
-                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800"
+                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-playfair"
                             data-oid="p0:pc7q"
                         >
+                            <i className="fas fa-bullseye text-red-600 mr-4" data-oid="imb3_zm"></i>
                             Our Mission – Real Freedom Ministry
                         </h2>
 
@@ -633,10 +662,14 @@ export default function Page() {
                 >
                     <div className="max-w-7xl mx-auto" data-oid="eh-5:_w">
                         <h2
-                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800"
+                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-playfair"
                             data-oid="asm8kz9"
                         >
-                            🙌 Get Involved – Be Part of Real Freedom
+                            <i
+                                className="fas fa-hands-helping text-purple-600 mr-4"
+                                data-oid="kq4nxvp"
+                            ></i>
+                            Get Involved – Be Part of Real Freedom
                         </h2>
 
                         <div className="max-w-4xl mx-auto mb-16 text-center" data-oid="v8er5w8">
@@ -652,10 +685,14 @@ export default function Page() {
                             {/* Seeking Help */}
                             <div className="bg-white rounded-lg shadow-lg p-8" data-oid="669k:o:">
                                 <h3
-                                    className="text-2xl font-semibold mb-4 text-blue-600"
+                                    className="text-2xl font-semibold mb-4 text-blue-600 font-playfair"
                                     data-oid="3rrtkwn"
                                 >
-                                    👐 Seeking Help? You're Not Alone.
+                                    <i
+                                        className="fas fa-hand-holding-heart text-blue-600 mr-3"
+                                        data-oid="05c5ybv"
+                                    ></i>
+                                    Seeking Help? You're Not Alone.
                                 </h3>
                                 <p
                                     className="text-gray-700 leading-relaxed mb-6"
@@ -680,10 +717,14 @@ export default function Page() {
                             {/* Volunteer */}
                             <div className="bg-white rounded-lg shadow-lg p-8" data-oid="bs8m2hf">
                                 <h3
-                                    className="text-2xl font-semibold mb-4 text-green-600"
+                                    className="text-2xl font-semibold mb-4 text-green-600 font-playfair"
                                     data-oid="pk513:u"
                                 >
-                                    🤝 Volunteer With Us
+                                    <i
+                                        className="fas fa-handshake text-green-600 mr-3"
+                                        data-oid="pfp2-nw"
+                                    ></i>
+                                    Volunteer With Us
                                 </h3>
                                 <p
                                     className="text-gray-700 leading-relaxed mb-4"
@@ -717,10 +758,14 @@ export default function Page() {
                             {/* Prayer Partner */}
                             <div className="bg-white rounded-lg shadow-lg p-8" data-oid="v6-z8zz">
                                 <h3
-                                    className="text-2xl font-semibold mb-4 text-purple-600"
+                                    className="text-2xl font-semibold mb-4 text-purple-600 font-playfair"
                                     data-oid="pdj9ltj"
                                 >
-                                    🙏 Become a Prayer Partner
+                                    <i
+                                        className="fas fa-praying-hands text-purple-600 mr-3"
+                                        data-oid="aj.va_k"
+                                    ></i>
+                                    Become a Prayer Partner
                                 </h3>
                                 <p className="text-gray-700 leading-relaxed" data-oid="gg0222-">
                                     We believe every breakthrough begins in prayer. Partner with us
@@ -733,10 +778,14 @@ export default function Page() {
                             {/* Donate */}
                             <div className="bg-white rounded-lg shadow-lg p-8" data-oid="cy7gijm">
                                 <h3
-                                    className="text-2xl font-semibold mb-4 text-yellow-600"
+                                    className="text-2xl font-semibold mb-4 text-yellow-600 font-playfair"
                                     data-oid="dp8ao:2"
                                 >
-                                    💝 Support the Mission – Donate
+                                    <i
+                                        className="fas fa-heart text-yellow-600 mr-3"
+                                        data-oid="p0l2t5c"
+                                    ></i>
+                                    Support the Mission – Donate
                                 </h3>
                                 <p
                                     className="text-gray-700 leading-relaxed mb-6"
@@ -760,10 +809,14 @@ export default function Page() {
 
                         <div className="text-center" data-oid="s1hyl3-">
                             <h3
-                                className="text-3xl font-semibold mb-6 text-gray-800"
+                                className="text-3xl font-semibold mb-6 text-gray-800 font-playfair"
                                 data-oid="dd:in1u"
                             >
-                                💬 Together, Let's Build a Generation Full of Purpose
+                                <i
+                                    className="fas fa-comments text-blue-600 mr-3"
+                                    data-oid="a4flw4b"
+                                ></i>
+                                Together, Let's Build a Generation Full of Purpose
                             </h3>
                             <p
                                 className="text-lg leading-relaxed text-gray-700 max-w-4xl mx-auto"
@@ -788,10 +841,14 @@ export default function Page() {
                     <div className="max-w-7xl mx-auto" data-oid="0bzvffd">
                         <div className="text-center mb-16" data-oid="n9nuznl">
                             <h2
-                                className="text-4xl md:text-5xl font-bold mb-6 text-gray-800"
+                                className="text-4xl md:text-5xl font-bold mb-6 text-gray-800 font-playfair"
                                 data-oid=":g-88l5"
                             >
-                                📞 Contact Us
+                                <i
+                                    className="fas fa-phone text-blue-600 mr-4"
+                                    data-oid="_ge8tvn"
+                                ></i>
+                                Contact Us
                             </h2>
                             <p
                                 className="text-lg text-gray-600 max-w-3xl mx-auto"
@@ -824,12 +881,10 @@ export default function Page() {
                                                 className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center"
                                                 data-oid="dcakhai"
                                             >
-                                                <span
-                                                    className="text-blue-600 text-xl"
-                                                    data-oid="x32focx"
-                                                >
-                                                    📧
-                                                </span>
+                                                <i
+                                                    className="fas fa-envelope text-blue-600 text-xl"
+                                                    data-oid="v3gvcsl"
+                                                ></i>
                                             </div>
                                             <div data-oid="6-0kbfj">
                                                 <h4
@@ -855,12 +910,10 @@ export default function Page() {
                                                 className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center"
                                                 data-oid="827z:_j"
                                             >
-                                                <span
-                                                    className="text-green-600 text-xl"
-                                                    data-oid="zc:fs_q"
-                                                >
-                                                    📱
-                                                </span>
+                                                <i
+                                                    className="fas fa-phone text-green-600 text-xl"
+                                                    data-oid="iyi1z3m"
+                                                ></i>
                                             </div>
                                             <div data-oid="w58pk_t">
                                                 <h4
@@ -886,12 +939,10 @@ export default function Page() {
                                                 className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center"
                                                 data-oid="xinxg1_"
                                             >
-                                                <span
-                                                    className="text-purple-600 text-xl"
-                                                    data-oid="lr.2ttq"
-                                                >
-                                                    📍
-                                                </span>
+                                                <i
+                                                    className="fas fa-map-marker-alt text-purple-600 text-xl"
+                                                    data-oid="06z9vq2"
+                                                ></i>
                                             </div>
                                             <div data-oid=":0.c_44">
                                                 <h4
@@ -915,7 +966,11 @@ export default function Page() {
                                         className="font-semibold text-blue-800 mb-3"
                                         data-oid="ubuagnj"
                                     >
-                                        🤝 Need Immediate Support?
+                                        <i
+                                            className="fas fa-life-ring text-blue-800 mr-2"
+                                            data-oid="gl8p.wg"
+                                        ></i>
+                                        Need Immediate Support?
                                     </h4>
                                     <p
                                         className="text-blue-700 text-sm leading-relaxed"
@@ -1153,7 +1208,11 @@ export default function Page() {
                                         className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                                         data-oid="-krasr1"
                                     >
-                                        Send Message 📤
+                                        <i
+                                            className="fas fa-paper-plane mr-2"
+                                            data-oid="me36dq3"
+                                        ></i>
+                                        Send Message
                                     </button>
                                 </form>
 
@@ -1162,7 +1221,10 @@ export default function Page() {
                                     data-oid="00tyfb4"
                                 >
                                     <p className="text-green-800 text-sm" data-oid="ejzyxic">
-                                        🔒 <strong data-oid=".mldm:f">Your privacy matters:</strong>{' '}
+                                        <i className="fas fa-lock mr-2" data-oid="rs5j1z6"></i>
+                                        <strong data-oid=".mldm:f">
+                                            Your privacy matters:
+                                        </strong>{' '}
                                         All communications are confidential. We're here to support
                                         you without judgment.
                                     </p>
@@ -1179,7 +1241,7 @@ export default function Page() {
                 data-oid="n_f04_6"
             >
                 <div className="max-w-7xl mx-auto text-center" data-oid="74od5eb">
-                    <div className="text-2xl font-bold mb-4" data-oid="c712k32">
+                    <div className="text-2xl font-bold mb-4 font-playfair" data-oid="c712k32">
                         The Real Freedom
                     </div>
                     <p className="text-gray-300 mb-4" data-oid="-vl8n6i">
