@@ -8,20 +8,20 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
-        <html lang="en" data-oid="vs1lnvi">
-            <head data-oid="eykj1i7">
-                <link rel="preconnect" href="https://fonts.googleapis.com" data-oid="q0qntva" />
+        <html lang="en" data-oid=":x4wvvp">
+            <head data-oid="0nfcl.-">
+                <link rel="preconnect" href="https://fonts.googleapis.com" data-oid="gleucsa" />
                 <link
                     rel="preconnect"
                     href="https://fonts.gstatic.com"
                     crossOrigin="anonymous"
-                    data-oid="m:_i9m2"
+                    data-oid="2kcbk_7"
                 />
 
                 <link
                     href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Inter:wght@300;400;500;600;700&display=swap"
                     rel="stylesheet"
-                    data-oid="0n-40vq"
+                    data-oid="2je.i53"
                 />
 
                 <link
@@ -29,10 +29,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
                     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
                     crossOrigin="anonymous"
-                    data-oid="8oexhca"
+                    data-oid="sf:8bx7"
                 />
             </head>
-            <body className="font-inter" data-oid="9i42m.3">
+            <body className="font-inter" data-oid="sy:qr9c">
                 {children}
             </body>
         </html>
