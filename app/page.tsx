@@ -393,6 +393,42 @@ export default function Page() {
                             </p>
                         </div>
 
+                        {/* Ministry Context Image */}
+                        <div
+                            className="flex justify-center mb-16"
+                            data-oid="ministry-context-image"
+                        >
+                            <div
+                                className="relative w-full max-w-4xl h-64 rounded-xl overflow-hidden shadow-lg"
+                                data-oid="4ic5fm8"
+                            >
+                                <img
+                                    src="https://images.unsplash.com/photo-1507692049790-de58290a4334?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                                    alt="Beautiful landscape of Ooty hills representing our ministry location"
+                                    className="w-full h-full object-cover"
+                                    data-oid="bgjp8_m"
+                                />
+
+                                <div
+                                    className="absolute inset-0 bg-blue-900 bg-opacity-30"
+                                    data-oid="gv7rhnt"
+                                ></div>
+                                <div
+                                    className="absolute inset-0 flex items-center justify-center"
+                                    data-oid="cch4-ts"
+                                >
+                                    <div className="text-center text-white" data-oid="j4.2gtz">
+                                        <h4 className="text-2xl font-bold mb-2" data-oid="0zbz188">
+                                            Serving in the Beautiful Hills of Ooty
+                                        </h4>
+                                        <p className="text-lg opacity-90" data-oid="cj2hspw">
+                                            Where God's creation meets His calling
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <h3
                             className="text-3xl font-semibold text-center mb-12 text-gray-800"
                             data-oid="ew3gujr"
@@ -498,6 +534,42 @@ export default function Page() {
                             </p>
                         </div>
 
+                        {/* Mission Overview Image */}
+                        <div
+                            className="flex justify-center mb-16"
+                            data-oid="mission-overview-image"
+                        >
+                            <div
+                                className="relative w-full max-w-3xl h-56 rounded-xl overflow-hidden shadow-lg"
+                                data-oid="3u6:8q8"
+                            >
+                                <img
+                                    src="https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                                    alt="Young people in India representing our mission field"
+                                    className="w-full h-full object-cover"
+                                    data-oid="c7mgwrm"
+                                />
+
+                                <div
+                                    className="absolute inset-0 bg-gradient-to-r from-blue-900 to-purple-900 bg-opacity-40"
+                                    data-oid="bde.tzl"
+                                ></div>
+                                <div
+                                    className="absolute inset-0 flex items-center justify-center"
+                                    data-oid="dbwu1ur"
+                                >
+                                    <div className="text-center text-white" data-oid="o-g23ma">
+                                        <h4 className="text-2xl font-bold mb-2" data-oid="3u-dvyw">
+                                            Reaching Youth Across India
+                                        </h4>
+                                        <p className="text-lg opacity-90" data-oid="l6ozto7">
+                                            Breaking chains, building futures
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="space-y-16" data-oid="ufgp.bd">
                             {/* Pillar 1 */}
                             <div
@@ -550,6 +622,34 @@ export default function Page() {
                                     recognize the destructive nature of addiction and the need for a
                                     better path.
                                 </p>
+
+                                {/* Expose the Lies Image */}
+                                <div className="mt-6" data-oid="kk..zj6">
+                                    <div
+                                        className="relative w-full h-48 rounded-lg overflow-hidden shadow-md"
+                                        data-oid="zt0h6dx"
+                                    >
+                                        <img
+                                            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2088&q=80"
+                                            alt="Light breaking through darkness representing truth"
+                                            className="w-full h-full object-cover"
+                                            data-oid="16ew0h:"
+                                        />
+
+                                        <div
+                                            className="absolute inset-0 bg-red-600 bg-opacity-20"
+                                            data-oid="qkzin.8"
+                                        ></div>
+                                        <div
+                                            className="absolute bottom-4 left-4 text-white"
+                                            data-oid="pi4zpjm"
+                                        >
+                                            <p className="text-sm font-semibold" data-oid="1924wo6">
+                                                Bringing Truth to Light
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             {/* Pillar 2 */}
@@ -601,6 +701,34 @@ export default function Page() {
                                     This is not about religion—it's about a real relationship with
                                     Christ that transforms hearts and restores lives.
                                 </p>
+
+                                {/* Offer Real Hope Image */}
+                                <div className="mt-6" data-oid="x4agd7w">
+                                    <div
+                                        className="relative w-full h-48 rounded-lg overflow-hidden shadow-md"
+                                        data-oid="jkj1a9d"
+                                    >
+                                        <img
+                                            src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                                            alt="Helping hands reaching out in support"
+                                            className="w-full h-full object-cover"
+                                            data-oid="5.v.y_x"
+                                        />
+
+                                        <div
+                                            className="absolute inset-0 bg-blue-600 bg-opacity-20"
+                                            data-oid="ykumfwh"
+                                        ></div>
+                                        <div
+                                            className="absolute bottom-4 left-4 text-white"
+                                            data-oid="xxv3:tf"
+                                        >
+                                            <p className="text-sm font-semibold" data-oid="ivfi8v-">
+                                                Hope Through Christ
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             {/* Pillar 3 */}
@@ -652,6 +780,34 @@ export default function Page() {
                                     We don't just want people to be free—we want them to live free
                                     and become a light to others.
                                 </p>
+
+                                {/* Walk in Freedom Image */}
+                                <div className="mt-6" data-oid="xb5rcua">
+                                    <div
+                                        className="relative w-full h-48 rounded-lg overflow-hidden shadow-md"
+                                        data-oid="m2g:jkb"
+                                    >
+                                        <img
+                                            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                                            alt="Person walking on a path toward freedom"
+                                            className="w-full h-full object-cover"
+                                            data-oid="cusuyuf"
+                                        />
+
+                                        <div
+                                            className="absolute inset-0 bg-green-600 bg-opacity-20"
+                                            data-oid="jaweton"
+                                        ></div>
+                                        <div
+                                            className="absolute bottom-4 left-4 text-white"
+                                            data-oid="_q6o:fg"
+                                        >
+                                            <p className="text-sm font-semibold" data-oid="d-jj7ud">
+                                                Walking in Freedom
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -695,96 +851,152 @@ export default function Page() {
 
                         <div className="grid md:grid-cols-2 gap-8 mb-16" data-oid="wbey2js">
                             {/* Seeking Help */}
-                            <div className="bg-white rounded-lg shadow-lg p-8" data-oid="669k:o:">
-                                <h3
-                                    className="text-2xl font-semibold mb-4 text-blue-600 font-merriweather"
-                                    data-oid="3rrtkwn"
-                                >
-                                    <i
-                                        className="fas fa-hand-holding-heart text-blue-600 mr-3"
-                                        data-oid="05c5ybv"
-                                    ></i>
-                                    Seeking Help? You're Not Alone.
-                                </h3>
-                                <p
-                                    className="text-gray-700 leading-relaxed mb-6"
-                                    data-oid="cc_-h82"
-                                >
-                                    If you or someone you know is struggling with addiction to
-                                    drugs, pornography, or other harmful behaviors, we want you to
-                                    know: there is hope. We offer a safe, compassionate space for
-                                    healing. Whether through counseling, prayer, or mentorship, our
-                                    team is here to walk with you—without shame or judgment. Reach
-                                    out today and take the first step toward real freedom.
-                                </p>
-                                <button
-                                    onClick={() => alert('Contact Us clicked!')}
-                                    className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors w-full"
-                                    data-oid="i3n05r:"
-                                >
-                                    👉 Contact Us
-                                </button>
+                            <div
+                                className="bg-white rounded-lg shadow-lg overflow-hidden"
+                                data-oid="669k:o:"
+                            >
+                                <div className="relative h-48" data-oid="c-.afj0">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2089&q=80"
+                                        alt="Supportive counseling session"
+                                        className="w-full h-full object-cover"
+                                        data-oid="krqlime"
+                                    />
+
+                                    <div
+                                        className="absolute inset-0 bg-blue-600 bg-opacity-20"
+                                        data-oid="bqgjref"
+                                    ></div>
+                                </div>
+                                <div className="p-8" data-oid=".t21tnk">
+                                    <h3
+                                        className="text-2xl font-semibold mb-4 text-blue-600 font-merriweather"
+                                        data-oid="3rrtkwn"
+                                    >
+                                        <i
+                                            className="fas fa-hand-holding-heart text-blue-600 mr-3"
+                                            data-oid="05c5ybv"
+                                        ></i>
+                                        Seeking Help? You're Not Alone.
+                                    </h3>
+                                    <p
+                                        className="text-gray-700 leading-relaxed mb-6"
+                                        data-oid="cc_-h82"
+                                    >
+                                        If you or someone you know is struggling with addiction to
+                                        drugs, pornography, or other harmful behaviors, we want you
+                                        to know: there is hope. We offer a safe, compassionate space
+                                        for healing. Whether through counseling, prayer, or
+                                        mentorship, our team is here to walk with you—without shame
+                                        or judgment. Reach out today and take the first step toward
+                                        real freedom.
+                                    </p>
+                                    <button
+                                        onClick={() => alert('Contact Us clicked!')}
+                                        className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors w-full"
+                                        data-oid="i3n05r:"
+                                    >
+                                        👉 Contact Us
+                                    </button>
+                                </div>
                             </div>
 
                             {/* Volunteer */}
-                            <div className="bg-white rounded-lg shadow-lg p-8" data-oid="bs8m2hf">
-                                <h3
-                                    className="text-2xl font-semibold mb-4 text-green-600 font-merriweather"
-                                    data-oid="pk513:u"
-                                >
-                                    <i
-                                        className="fas fa-handshake text-green-600 mr-3"
-                                        data-oid="pfp2-nw"
-                                    ></i>
-                                    Volunteer With Us
-                                </h3>
-                                <p
-                                    className="text-gray-700 leading-relaxed mb-4"
-                                    data-oid="cj1xr4g"
-                                >
-                                    You can make an impact right where you are. Join our team of
-                                    volunteers who are passionate about bringing truth and hope to
-                                    the next generation. Whether you're gifted in media, counseling,
-                                    event organizing, administration, prayer, or simply love
-                                    people—there's a place for you in Real Freedom.
-                                </p>
-                                <ul
-                                    className="list-disc list-inside space-y-1 text-gray-700 mb-6"
-                                    data-oid="lp7p68y"
-                                >
-                                    <li data-oid="l4aplms">School/college outreach</li>
-                                    <li data-oid="pyfklqn">Media and content creation</li>
-                                    <li data-oid="fs0fbij">Mentorship and follow-up</li>
-                                    <li data-oid="uv2j7zq">Children's ministry support</li>
-                                    <li data-oid="uk3qt9j">Event coordination and more</li>
-                                </ul>
-                                <button
-                                    onClick={() => alert('Volunteer clicked!')}
-                                    className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors w-full"
-                                    data-oid="-ebhb82"
-                                >
-                                    👉 Volunteer
-                                </button>
+                            <div
+                                className="bg-white rounded-lg shadow-lg overflow-hidden"
+                                data-oid="bs8m2hf"
+                            >
+                                <div className="relative h-48" data-oid="994jx9e">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                                        alt="Volunteers working together in community outreach"
+                                        className="w-full h-full object-cover"
+                                        data-oid="s7aueic"
+                                    />
+
+                                    <div
+                                        className="absolute inset-0 bg-green-600 bg-opacity-20"
+                                        data-oid="72pgo63"
+                                    ></div>
+                                </div>
+                                <div className="p-8" data-oid="pbs:0jk">
+                                    <h3
+                                        className="text-2xl font-semibold mb-4 text-green-600 font-merriweather"
+                                        data-oid="pk513:u"
+                                    >
+                                        <i
+                                            className="fas fa-handshake text-green-600 mr-3"
+                                            data-oid="pfp2-nw"
+                                        ></i>
+                                        Volunteer With Us
+                                    </h3>
+                                    <p
+                                        className="text-gray-700 leading-relaxed mb-4"
+                                        data-oid="cj1xr4g"
+                                    >
+                                        You can make an impact right where you are. Join our team of
+                                        volunteers who are passionate about bringing truth and hope
+                                        to the next generation. Whether you're gifted in media,
+                                        counseling, event organizing, administration, prayer, or
+                                        simply love people—there's a place for you in Real Freedom.
+                                    </p>
+                                    <ul
+                                        className="list-disc list-inside space-y-1 text-gray-700 mb-6"
+                                        data-oid="lp7p68y"
+                                    >
+                                        <li data-oid="l4aplms">School/college outreach</li>
+                                        <li data-oid="pyfklqn">Media and content creation</li>
+                                        <li data-oid="fs0fbij">Mentorship and follow-up</li>
+                                        <li data-oid="uv2j7zq">Children's ministry support</li>
+                                        <li data-oid="uk3qt9j">Event coordination and more</li>
+                                    </ul>
+                                    <button
+                                        onClick={() => alert('Volunteer clicked!')}
+                                        className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors w-full"
+                                        data-oid="-ebhb82"
+                                    >
+                                        👉 Volunteer
+                                    </button>
+                                </div>
                             </div>
 
                             {/* Prayer Partner */}
-                            <div className="bg-white rounded-lg shadow-lg p-8" data-oid="v6-z8zz">
-                                <h3
-                                    className="text-2xl font-semibold mb-4 text-purple-600 font-merriweather"
-                                    data-oid="pdj9ltj"
-                                >
-                                    <i
-                                        className="fas fa-praying-hands text-purple-600 mr-3"
-                                        data-oid="aj.va_k"
-                                    ></i>
-                                    Become a Prayer Partner
-                                </h3>
-                                <p className="text-gray-700 leading-relaxed" data-oid="gg0222-">
-                                    We believe every breakthrough begins in prayer. Partner with us
-                                    by committing to pray regularly for our team, the youth we
-                                    reach, and the families we serve. We'll keep you updated with
-                                    prayer points and testimonies so you can stand with us in faith.
-                                </p>
+                            <div
+                                className="bg-white rounded-lg shadow-lg overflow-hidden"
+                                data-oid="v6-z8zz"
+                            >
+                                <div className="relative h-48" data-oid="y5y02jf">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80"
+                                        alt="People praying together in fellowship"
+                                        className="w-full h-full object-cover"
+                                        data-oid="vujhqr0"
+                                    />
+
+                                    <div
+                                        className="absolute inset-0 bg-purple-600 bg-opacity-20"
+                                        data-oid="gwh1nbm"
+                                    ></div>
+                                </div>
+                                <div className="p-8" data-oid="p:64gba">
+                                    <h3
+                                        className="text-2xl font-semibold mb-4 text-purple-600 font-merriweather"
+                                        data-oid="pdj9ltj"
+                                    >
+                                        <i
+                                            className="fas fa-praying-hands text-purple-600 mr-3"
+                                            data-oid="aj.va_k"
+                                        ></i>
+                                        Become a Prayer Partner
+                                    </h3>
+                                    <p className="text-gray-700 leading-relaxed" data-oid="gg0222-">
+                                        We believe every breakthrough begins in prayer. Partner with
+                                        us by committing to pray regularly for our team, the youth
+                                        we reach, and the families we serve. We'll keep you updated
+                                        with prayer points and testimonies so you can stand with us
+                                        in faith.
+                                    </p>
+                                </div>
                             </div>
 
                             {/* Donate */}
