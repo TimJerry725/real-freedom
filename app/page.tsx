@@ -86,63 +86,48 @@ export default function Page() {
     };
 
     return (
-        <div
-            className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 text-gray-800 font-inter"
-            data-oid="e2y.a5w"
-        >
+        <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 text-gray-800 font-inter">
             {/* Header */}
-            <header
-                className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200 shadow-sm"
-                data-oid="p.pe1e6"
-            >
-                <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4" data-oid="2bxdj03">
-                    <div className="flex justify-between items-center" data-oid="o.1vtfg">
-                        <div
-                            className="text-2xl font-bold text-blue-600 font-merriweather"
-                            data-oid="7bx62pe"
-                        >
+            <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200 shadow-sm">
+                <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+                    <div className="flex justify-between items-center">
+                        <div className="text-2xl font-bold text-blue-600 font-merriweather">
                             The Real Freedom
                         </div>
-                        <div className="hidden md:flex space-x-8" data-oid="1ez9n2v">
+                        <div className="hidden md:flex space-x-8">
                             <button
                                 onClick={() => scrollToSection('home')}
                                 className="text-gray-600 hover:text-blue-600 transition-colors"
-                                data-oid="fvueenh"
                             >
                                 Home
                             </button>
                             <button
                                 onClick={() => scrollToSection('vision')}
                                 className="text-gray-600 hover:text-blue-600 transition-colors"
-                                data-oid="ok63ff0"
                             >
                                 Vision
                             </button>
                             <button
                                 onClick={() => scrollToSection('who-we-are')}
                                 className="text-gray-600 hover:text-blue-600 transition-colors"
-                                data-oid="o_h_mlk"
                             >
                                 Who We Are
                             </button>
                             <button
                                 onClick={() => scrollToSection('mission')}
                                 className="text-gray-600 hover:text-blue-600 transition-colors"
-                                data-oid="hfw8oby"
                             >
                                 Mission
                             </button>
                             <button
                                 onClick={() => scrollToSection('get-involved')}
                                 className="text-gray-600 hover:text-blue-600 transition-colors"
-                                data-oid="y-gyxlu"
                             >
                                 Get Involved
                             </button>
                             <button
                                 onClick={() => scrollToSection('contact')}
                                 className="text-gray-600 hover:text-blue-600 transition-colors"
-                                data-oid="d862ht0"
                             >
                                 Contact
                             </button>
@@ -151,70 +136,42 @@ export default function Page() {
                 </nav>
             </header>
 
-            <main data-oid="h9r_ht6">
+            <main>
                 {/* Hero Section */}
                 <section
                     id="home"
                     className="relative py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-white via-blue-50 to-purple-50 overflow-hidden"
-                    data-oid="chyo:ft"
                 >
                     {/* Decorative elements */}
-                    <div className="absolute inset-0 overflow-hidden" data-oid="vimt9mk">
-                        <div
-                            className="absolute -top-40 -right-40 w-80 h-80 bg-blue-100 rounded-full opacity-20 blur-3xl"
-                            data-oid=".evfzt:"
-                        ></div>
-                        <div
-                            className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-100 rounded-full opacity-20 blur-3xl"
-                            data-oid="e18j:2o"
-                        ></div>
+                    <div className="absolute inset-0 overflow-hidden">
+                        <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-100 rounded-full opacity-20 blur-3xl"></div>
+                        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-100 rounded-full opacity-20 blur-3xl"></div>
                     </div>
 
-                    <div className="relative max-w-7xl mx-auto text-center" data-oid="rimm9-o">
-                        <div className="mb-8" data-oid=":xynmcv">
-                            <div
-                                className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-blue-200 shadow-sm mb-6"
-                                data-oid="fu3brun"
-                            >
-                                <i
-                                    className="fas fa-star text-blue-600 mr-2"
-                                    data-oid="q2c_2wo"
-                                ></i>
-                                <span
-                                    className="text-blue-600 font-medium text-sm"
-                                    data-oid="gh3vhi2"
-                                >
+                    <div className="relative max-w-7xl mx-auto text-center">
+                        <div className="mb-8">
+                            <div className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-blue-200 shadow-sm mb-6">
+                                <i className="fas fa-star text-blue-600 mr-2"></i>
+                                <span className="text-blue-600 font-medium text-sm">
                                     Transforming Lives Through Christ
                                 </span>
                             </div>
                         </div>
 
-                        <h1
-                            className="text-5xl md:text-7xl font-bold mb-6 leading-tight bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent font-merriweather"
-                            data-oid="nd1yfbf"
-                        >
+                        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent font-merriweather">
                             The Real Freedom
                         </h1>
 
-                        <h2
-                            className="text-2xl md:text-3xl font-light mb-6 text-gray-700"
-                            data-oid="54q4n23"
-                        >
+                        <h2 className="text-2xl md:text-3xl font-light mb-6 text-gray-700">
                             Welcome to a Life of Purpose
                         </h2>
 
-                        <p
-                            className="text-xl md:text-2xl font-medium mb-8 text-blue-700 max-w-4xl mx-auto"
-                            data-oid="n8pyp_k"
-                        >
+                        <p className="text-xl md:text-2xl font-medium mb-8 text-blue-700 max-w-4xl mx-auto">
                             "Freedom Through Christ – Break the Chains, Embrace Life"
                         </p>
 
-                        <div className="max-w-4xl mx-auto mb-12" data-oid="gprg2x5">
-                            <p
-                                className="text-lg md:text-xl leading-relaxed text-gray-600"
-                                data-oid="4hfxqgy"
-                            >
+                        <div className="max-w-4xl mx-auto mb-12">
+                            <p className="text-lg md:text-xl leading-relaxed text-gray-600">
                                 True freedom is found in Christ. Life, as God intended, is meant to
                                 be lived in complete freedom—the ability to always choose what is
                                 right and walk on purpose. But many have fallen into bondage through
@@ -224,21 +181,16 @@ export default function Page() {
                             </p>
                         </div>
 
-                        <div
-                            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
-                            data-oid="leeuz5h"
-                        >
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                             <button
                                 onClick={() => scrollToSection('mission')}
                                 className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-                                data-oid="jb4t3v:"
                             >
                                 Discover Our Mission
                             </button>
                             <button
                                 onClick={() => scrollToSection('contact')}
                                 className="bg-white hover:bg-gray-50 text-blue-600 font-semibold py-4 px-8 rounded-full border-2 border-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-                                data-oid=".yl-wi2"
                             >
                                 Get in Touch
                             </button>
@@ -247,21 +199,15 @@ export default function Page() {
                 </section>
 
                 {/* Vision Section */}
-                <section id="vision" className="py-20 px-4 sm:px-6 lg:px-8" data-oid="iyj16kh">
-                    <div className="max-w-7xl mx-auto" data-oid="6my4m88">
-                        <h2
-                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-merriweather"
-                            data-oid="01h437h"
-                        >
-                            <i
-                                className="fas fa-seedling text-green-600 mr-4"
-                                data-oid="cdk117z"
-                            ></i>
+                <section id="vision" className="py-20 px-4 sm:px-6 lg:px-8">
+                    <div className="max-w-7xl mx-auto">
+                        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-merriweather">
+                            <i className="fas fa-seedling text-green-600 mr-4"></i>
                             Our Vision – Real Freedom Ministry
                         </h2>
 
-                        <div className="max-w-4xl mx-auto space-y-12" data-oid="4il1gjm">
-                            <p className="text-lg leading-relaxed text-gray-700" data-oid="ohj-60:">
+                        <div className="max-w-4xl mx-auto space-y-12">
+                            <p className="text-lg leading-relaxed text-gray-700">
                                 At Real Freedom Ministry, we believe that real freedom is more than
                                 just escape—it is a total transformation of the heart, mind, and
                                 purpose. While the world often offers momentary relief through
@@ -269,20 +215,11 @@ export default function Page() {
                                 a deeper, lasting truth: true freedom is only found in Jesus Christ.
                             </p>
 
-                            <div
-                                className="bg-white rounded-lg shadow-lg p-8 border-l-4 border-blue-500"
-                                data-oid="xl7crga"
-                            >
-                                <h3
-                                    className="text-2xl font-semibold mb-4 text-blue-600"
-                                    data-oid="9hv6jak"
-                                >
+                            <div className="bg-white rounded-lg shadow-lg p-8 border-l-4 border-blue-500">
+                                <h3 className="text-2xl font-semibold mb-4 text-blue-600">
                                     More Than Breaking Free
                                 </h3>
-                                <p
-                                    className="text-lg leading-relaxed text-gray-700"
-                                    data-oid="3efy_g:"
-                                >
+                                <p className="text-lg leading-relaxed text-gray-700">
                                     Freedom isn't just about walking away from addiction—it's about
                                     walking into something greater. We envision lives not only set
                                     free from the chains of substance abuse and pornography, but
@@ -292,20 +229,11 @@ export default function Page() {
                                 </p>
                             </div>
 
-                            <div
-                                className="bg-white rounded-lg shadow-lg p-8 border-l-4 border-purple-500"
-                                data-oid=".su.j71"
-                            >
-                                <h3
-                                    className="text-2xl font-semibold mb-4 text-purple-600"
-                                    data-oid="8nsm.wn"
-                                >
+                            <div className="bg-white rounded-lg shadow-lg p-8 border-l-4 border-purple-500">
+                                <h3 className="text-2xl font-semibold mb-4 text-purple-600">
                                     A Generation Transformed
                                 </h3>
-                                <p
-                                    className="text-lg leading-relaxed text-gray-700"
-                                    data-oid=".xhkuv6"
-                                >
+                                <p className="text-lg leading-relaxed text-gray-700">
                                     We see a generation rising up—healed, whole, and set apart for
                                     God. A generation that no longer hides in shame or settles for
                                     shallow substitutes, but lives with conviction, courage, and
@@ -316,20 +244,11 @@ export default function Page() {
                                 </p>
                             </div>
 
-                            <div
-                                className="bg-white rounded-lg shadow-lg p-8 border-l-4 border-green-500"
-                                data-oid="9_gf73p"
-                            >
-                                <h3
-                                    className="text-2xl font-semibold mb-4 text-green-600"
-                                    data-oid="adl7d8s"
-                                >
+                            <div className="bg-white rounded-lg shadow-lg p-8 border-l-4 border-green-500">
+                                <h3 className="text-2xl font-semibold mb-4 text-green-600">
                                     A Stand Against the Lies
                                 </h3>
-                                <p
-                                    className="text-lg leading-relaxed text-gray-700"
-                                    data-oid="zrcr4ot"
-                                >
+                                <p className="text-lg leading-relaxed text-gray-700">
                                     In today's world, freedom is often misunderstood as doing
                                     whatever you want, whenever you want. But this false liberty
                                     leads only to deeper bondage. We stand against this deception by
@@ -339,20 +258,11 @@ export default function Page() {
                                 </p>
                             </div>
 
-                            <div
-                                className="bg-white rounded-lg shadow-lg p-8 border-l-4 border-yellow-500"
-                                data-oid="-d509zj"
-                            >
-                                <h3
-                                    className="text-2xl font-semibold mb-4 text-yellow-600"
-                                    data-oid="yhfvs5j"
-                                >
+                            <div className="bg-white rounded-lg shadow-lg p-8 border-l-4 border-yellow-500">
+                                <h3 className="text-2xl font-semibold mb-4 text-yellow-600">
                                     The Heart of Our Vision
                                 </h3>
-                                <p
-                                    className="text-lg leading-relaxed text-gray-700"
-                                    data-oid="x235l2i"
-                                >
+                                <p className="text-lg leading-relaxed text-gray-700">
                                     Real freedom is a life transformed by the love of God, rooted in
                                     His Word, and empowered by His Spirit. It is living with
                                     purpose, loving others deeply, and standing firm in truth. Our
@@ -365,64 +275,44 @@ export default function Page() {
                 </section>
 
                 {/* Who We Are Section */}
-                <section
-                    id="who-we-are"
-                    className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50"
-                    data-oid="9:n8o:g"
-                >
-                    <div className="max-w-7xl mx-auto" data-oid="9168.wc">
-                        <h2
-                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-merriweather"
-                            data-oid="j9wps4y"
-                        >
-                            <i className="fas fa-users text-blue-600 mr-4" data-oid="dh1yh8x"></i>
+                <section id="who-we-are" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+                    <div className="max-w-7xl mx-auto">
+                        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-merriweather">
+                            <i className="fas fa-users text-blue-600 mr-4"></i>
                             Who We Are
                         </h2>
 
-                        <div className="max-w-4xl mx-auto space-y-8 mb-16" data-oid="xsawung">
-                            <p className="text-lg leading-relaxed text-gray-700" data-oid="w.plcxh">
+                        <div className="max-w-4xl mx-auto space-y-8 mb-16">
+                            <p className="text-lg leading-relaxed text-gray-700">
                                 We are a team of believers redeemed by Christ and united by a
                                 calling to serve. With backgrounds in church ministry, rural
                                 outreach, women and child empowerment, and youth development, we
                                 bring diverse experience into one shared purpose—proclaiming freedom
                                 to the brokenhearted.
                             </p>
-                            <p className="text-lg leading-relaxed text-gray-700" data-oid="3frkdtl">
+                            <p className="text-lg leading-relaxed text-gray-700">
                                 This ministry operates under the spiritual covering of Ooty Central
                                 Open Bible Church of God.
                             </p>
                         </div>
 
-                        <h3
-                            className="text-3xl font-semibold text-center mb-12 text-gray-800"
-                            data-oid="pn5qc14"
-                        >
+                        <h3 className="text-3xl font-semibold text-center mb-12 text-gray-800">
                             Meet the Team
                         </h3>
 
-                        <div
-                            className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto"
-                            data-oid="iv6d1:2"
-                        >
+                        <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
                             {/* Team Member 1 */}
-                            <div
-                                className="bg-white rounded-lg shadow-lg p-8 text-center"
-                                data-oid="ol15tud"
-                            >
+                            <div className="bg-white rounded-lg shadow-lg p-8 text-center">
                                 <img
                                     src="https://placehold.co/150x150/E0E0E0/333333?text=Team+Member"
                                     alt="Jesu Prakash & Loji Prakash"
                                     className="rounded-full mx-auto mb-6 w-32 h-32 object-cover"
-                                    data-oid="h_8pjxj"
                                 />
 
-                                <h4
-                                    className="text-2xl font-semibold mb-4 text-blue-600"
-                                    data-oid="j-yo8ib"
-                                >
+                                <h4 className="text-2xl font-semibold mb-4 text-blue-600">
                                     Jesu Prakash & Loji Prakash
                                 </h4>
-                                <p className="text-gray-700 leading-relaxed" data-oid="qfupy9e">
+                                <p className="text-gray-700 leading-relaxed">
                                     After serving faithfully as a pastor for 10 years, Jesu Prakash
                                     now dedicates his time to mentoring pastors and strengthening
                                     churches in remote and underdeveloped areas. Together with his
@@ -437,24 +327,17 @@ export default function Page() {
                             </div>
 
                             {/* Team Member 2 */}
-                            <div
-                                className="bg-white rounded-lg shadow-lg p-8 text-center"
-                                data-oid="r6q1u3m"
-                            >
+                            <div className="bg-white rounded-lg shadow-lg p-8 text-center">
                                 <img
                                     src="https://placehold.co/150x150/E0E0E0/333333?text=Team+Member"
                                     alt="Jinish Mathew & Grace Ruth"
                                     className="rounded-full mx-auto mb-6 w-32 h-32 object-cover"
-                                    data-oid="ymbyqig"
                                 />
 
-                                <h4
-                                    className="text-2xl font-semibold mb-4 text-purple-600"
-                                    data-oid="x:6-3sy"
-                                >
+                                <h4 className="text-2xl font-semibold mb-4 text-purple-600">
                                     Jinish Mathew & Grace Ruth
                                 </h4>
-                                <p className="text-gray-700 leading-relaxed" data-oid="y394je3">
+                                <p className="text-gray-700 leading-relaxed">
                                     With a deep heart for people and a passion to see lives
                                     transformed, Jinish Mathew and Grace Ruth serve together through
                                     Real Freedom Ministry. Jinish has been actively involved in
@@ -476,21 +359,15 @@ export default function Page() {
                 </section>
 
                 {/* Mission Section */}
-                <section id="mission" className="py-20 px-4 sm:px-6 lg:px-8" data-oid="46xs85q">
-                    <div className="max-w-7xl mx-auto" data-oid="tmcvqtp">
-                        <h2
-                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-merriweather"
-                            data-oid="_uih-ac"
-                        >
-                            <i className="fas fa-bullseye text-red-600 mr-4" data-oid="yhw9-86"></i>
+                <section id="mission" className="py-20 px-4 sm:px-6 lg:px-8">
+                    <div className="max-w-7xl mx-auto">
+                        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-merriweather">
+                            <i className="fas fa-bullseye text-red-600 mr-4"></i>
                             Our Mission – Real Freedom Ministry
                         </h2>
 
-                        <div className="max-w-4xl mx-auto mb-16" data-oid="jnwpap8">
-                            <p
-                                className="text-lg leading-relaxed text-gray-700 text-center"
-                                data-oid="oa:ko1."
-                            >
+                        <div className="max-w-4xl mx-auto mb-16">
+                            <p className="text-lg leading-relaxed text-gray-700 text-center">
                                 At Real Freedom, we are on a mission to reach youth in India with
                                 the life-transforming truth of the Gospel—especially those trapped
                                 in the chains of addiction. Our ministry stands on three core
@@ -498,54 +375,36 @@ export default function Page() {
                             </p>
                         </div>
 
-                        <div className="space-y-16" data-oid="rx:wa2g">
+                        <div className="space-y-16">
                             {/* Pillar 1 */}
-                            <div
-                                className="bg-red-50 rounded-lg shadow-lg p-8 border-l-4 border-red-500"
-                                data-oid="62:a:24"
-                            >
-                                <h3
-                                    className="text-3xl font-bold mb-6 text-red-600 flex items-center"
-                                    data-oid="8r18mg-"
-                                >
-                                    <i
-                                        className="fas fa-eye text-red-600 mr-4"
-                                        data-oid="uvgy3z9"
-                                    ></i>
+                            <div className="bg-red-50 rounded-lg shadow-lg p-8 border-l-4 border-red-500">
+                                <h3 className="text-3xl font-bold mb-6 text-red-600 flex items-center">
+                                    <i className="fas fa-eye text-red-600 mr-4"></i>
                                     Expose the Lies
                                 </h3>
-                                <p
-                                    className="text-lg leading-relaxed text-gray-700 mb-6"
-                                    data-oid="3xdif-f"
-                                >
+                                <p className="text-lg leading-relaxed text-gray-700 mb-6">
                                     Addiction thrives in darkness and deception. Many young people
                                     fall into the grip of drugs and pornography believing lies—that
                                     they will feel better, be accepted, escape pain, or gain
                                     control. Our mission is to bring those lies into the light.
                                 </p>
-                                <ul
-                                    className="list-disc list-inside space-y-2 text-gray-700 mb-6"
-                                    data-oid="nhi9.m1"
-                                >
-                                    <li data-oid="0e8t8_y">
+                                <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
+                                    <li>
                                         Community events, school and college outreach, and awareness
                                         workshops.
                                     </li>
-                                    <li data-oid="-8wlhvq">
+                                    <li>
                                         Educational media (videos, articles, and social campaigns)
                                         that expose the psychological, emotional, and spiritual
                                         impact of addiction.
                                     </li>
-                                    <li data-oid="jqmefqw">
+                                    <li>
                                         Open conversations that challenge cultural silence and
                                         stigma, giving youth a voice and space to ask hard
                                         questions.
                                     </li>
                                 </ul>
-                                <p
-                                    className="text-lg leading-relaxed text-gray-700"
-                                    data-oid="f8xtc:v"
-                                >
+                                <p className="text-lg leading-relaxed text-gray-700">
                                     By exposing these lies, we help young people and their families
                                     recognize the destructive nature of addiction and the need for a
                                     better path.
@@ -553,110 +412,74 @@ export default function Page() {
                             </div>
 
                             {/* Pillar 2 */}
-                            <div
-                                className="bg-blue-50 rounded-lg shadow-lg p-8 border-l-4 border-blue-500"
-                                data-oid="mn26z48"
-                            >
-                                <h3
-                                    className="text-3xl font-bold mb-6 text-blue-600 flex items-center"
-                                    data-oid=".980kb9"
-                                >
-                                    <i
-                                        className="fas fa-hands-helping text-blue-600 mr-4"
-                                        data-oid="l8mwth1"
-                                    ></i>
+                            <div className="bg-blue-50 rounded-lg shadow-lg p-8 border-l-4 border-blue-500">
+                                <h3 className="text-3xl font-bold mb-6 text-blue-600 flex items-center">
+                                    <i className="fas fa-hands-helping text-blue-600 mr-4"></i>
                                     Offer Real Hope
                                 </h3>
-                                <p
-                                    className="text-lg leading-relaxed text-gray-700 mb-6"
-                                    data-oid="16bvfur"
-                                >
+                                <p className="text-lg leading-relaxed text-gray-700 mb-6">
                                     The world offers temporary fixes—but Jesus Christ offers lasting
                                     freedom. At Real Freedom, we believe the Gospel is the ultimate
                                     answer to the brokenness caused by addiction. Our goal is not
                                     just recovery, but redemption.
                                 </p>
-                                <ul
-                                    className="list-disc list-inside space-y-2 text-gray-700 mb-6"
-                                    data-oid="h:xqhfe"
-                                >
-                                    <li data-oid="qas5a2q">
+                                <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
+                                    <li>
                                         Proclaiming the Gospel in every campaign, interaction, and
                                         resource we create.
                                     </li>
-                                    <li data-oid="z5584du">
+                                    <li>
                                         Offering personal mentorship—walking alongside individuals
                                         in their journey.
                                     </li>
-                                    <li data-oid="-:u54ky">
+                                    <li>
                                         Distributing Christ-centered materials—including
                                         devotionals, testimonies, and media content that point to
                                         healing in Jesus.
                                     </li>
                                 </ul>
-                                <p
-                                    className="text-lg leading-relaxed text-gray-700"
-                                    data-oid="0vcefsh"
-                                >
+                                <p className="text-lg leading-relaxed text-gray-700">
                                     This is not about religion—it's about a real relationship with
                                     Christ that transforms hearts and restores lives.
                                 </p>
                             </div>
 
                             {/* Pillar 3 */}
-                            <div
-                                className="bg-green-50 rounded-lg shadow-lg p-8 border-l-4 border-green-500"
-                                data-oid="bf7x548"
-                            >
-                                <h3
-                                    className="text-3xl font-bold mb-6 text-green-600 flex items-center"
-                                    data-oid="-g3u-zr"
-                                >
-                                    <i
-                                        className="fas fa-walking text-green-600 mr-4"
-                                        data-oid="rk-8er6"
-                                    ></i>
+                            <div className="bg-green-50 rounded-lg shadow-lg p-8 border-l-4 border-green-500">
+                                <h3 className="text-3xl font-bold mb-6 text-green-600 flex items-center">
+                                    <i className="fas fa-walking text-green-600 mr-4"></i>
                                     Walk in Freedom
                                 </h3>
-                                <p
-                                    className="text-lg leading-relaxed text-gray-700 mb-6"
-                                    data-oid="1gnrbgb"
-                                >
+                                <p className="text-lg leading-relaxed text-gray-700 mb-6">
                                     Freedom is not a one-time moment; it's a daily walk. We are
                                     committed to standing with those who want to be free—offering
                                     encouragement, accountability, and discipleship every step of
                                     the way.
                                 </p>
-                                <ul
-                                    className="list-disc list-inside space-y-2 text-gray-700 mb-6"
-                                    data-oid="1i4j90."
-                                >
-                                    <li data-oid="c9n3b6l">
+                                <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">
+                                    <li>
                                         Providing practical recovery tools, such as counseling,
                                         accountability resources, and personalized support.
                                     </li>
-                                    <li data-oid="3org.w9">
+                                    <li>
                                         Creating prayer networks and spiritual mentorship,
                                         connecting youth to leaders and communities that build their
                                         faith.
                                     </li>
-                                    <li data-oid="aylee9b">
+                                    <li>
                                         Leading discipleship programs that help them grow in
                                         identity, purpose, and spiritual maturity.
                                     </li>
                                 </ul>
-                                <p
-                                    className="text-lg leading-relaxed text-gray-700"
-                                    data-oid="7dknffr"
-                                >
+                                <p className="text-lg leading-relaxed text-gray-700">
                                     We don't just want people to be free—we want them to live free
                                     and become a light to others.
                                 </p>
                             </div>
                         </div>
 
-                        <div className="max-w-4xl mx-auto mt-16 text-center" data-oid="9mf8:-7">
-                            <p className="text-lg leading-relaxed text-gray-700" data-oid="lk91xqr">
+                        <div className="max-w-4xl mx-auto mt-16 text-center">
+                            <p className="text-lg leading-relaxed text-gray-700">
                                 At Real Freedom, we believe the love of Christ breaks every chain.
                                 Our mission is to boldly proclaim that truth, walk with those in
                                 need, and raise a generation that knows what it means to live in the
@@ -670,22 +493,15 @@ export default function Page() {
                 <section
                     id="get-involved"
                     className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-blue-50"
-                    data-oid="kjm802i"
                 >
-                    <div className="max-w-7xl mx-auto" data-oid="9z6e3dj">
-                        <h2
-                            className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-merriweather"
-                            data-oid=".ltv7gs"
-                        >
-                            <i
-                                className="fas fa-hands-helping text-purple-600 mr-4"
-                                data-oid="k:x28tv"
-                            ></i>
+                    <div className="max-w-7xl mx-auto">
+                        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800 font-merriweather">
+                            <i className="fas fa-hands-helping text-purple-600 mr-4"></i>
                             Get Involved – Be Part of Real Freedom
                         </h2>
 
-                        <div className="max-w-4xl mx-auto mb-16 text-center" data-oid="t0iym9:">
-                            <p className="text-lg leading-relaxed text-gray-700" data-oid="svjtz8f">
+                        <div className="max-w-4xl mx-auto mb-16 text-center">
+                            <p className="text-lg leading-relaxed text-gray-700">
                                 Do you want to make a difference in the lives of young people across
                                 India? Whether you're someone who has a heart to serve, a passion to
                                 pray, a desire to give, or you're in need of help yourself—we
@@ -693,23 +509,14 @@ export default function Page() {
                             </p>
                         </div>
 
-                        <div className="grid md:grid-cols-2 gap-8 mb-16" data-oid="apjj.la">
+                        <div className="grid md:grid-cols-2 gap-8 mb-16">
                             {/* Seeking Help */}
-                            <div className="bg-white rounded-lg shadow-lg p-8" data-oid="vkyn8zp">
-                                <h3
-                                    className="text-2xl font-semibold mb-4 text-blue-600 font-merriweather"
-                                    data-oid="jiye_pv"
-                                >
-                                    <i
-                                        className="fas fa-hand-holding-heart text-blue-600 mr-3"
-                                        data-oid="pmt3ied"
-                                    ></i>
+                            <div className="bg-white rounded-lg shadow-lg p-8">
+                                <h3 className="text-2xl font-semibold mb-4 text-blue-600 font-merriweather">
+                                    <i className="fas fa-hand-holding-heart text-blue-600 mr-3"></i>
                                     Seeking Help? You're Not Alone.
                                 </h3>
-                                <p
-                                    className="text-gray-700 leading-relaxed mb-6"
-                                    data-oid="edj8x86"
-                                >
+                                <p className="text-gray-700 leading-relaxed mb-6">
                                     If you or someone you know is struggling with addiction to
                                     drugs, pornography, or other harmful behaviors, we want you to
                                     know: there is hope. We offer a safe, compassionate space for
@@ -720,66 +527,46 @@ export default function Page() {
                                 <button
                                     onClick={() => alert('Contact Us clicked!')}
                                     className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors w-full"
-                                    data-oid="h0zs769"
                                 >
                                     👉 Contact Us
                                 </button>
                             </div>
 
                             {/* Volunteer */}
-                            <div className="bg-white rounded-lg shadow-lg p-8" data-oid="pqeo93r">
-                                <h3
-                                    className="text-2xl font-semibold mb-4 text-green-600 font-merriweather"
-                                    data-oid="tumt9li"
-                                >
-                                    <i
-                                        className="fas fa-handshake text-green-600 mr-3"
-                                        data-oid="p7_e1fl"
-                                    ></i>
+                            <div className="bg-white rounded-lg shadow-lg p-8">
+                                <h3 className="text-2xl font-semibold mb-4 text-green-600 font-merriweather">
+                                    <i className="fas fa-handshake text-green-600 mr-3"></i>
                                     Volunteer With Us
                                 </h3>
-                                <p
-                                    className="text-gray-700 leading-relaxed mb-4"
-                                    data-oid="2rr2:bs"
-                                >
+                                <p className="text-gray-700 leading-relaxed mb-4">
                                     You can make an impact right where you are. Join our team of
                                     volunteers who are passionate about bringing truth and hope to
                                     the next generation. Whether you're gifted in media, counseling,
                                     event organizing, administration, prayer, or simply love
                                     people—there's a place for you in Real Freedom.
                                 </p>
-                                <ul
-                                    className="list-disc list-inside space-y-1 text-gray-700 mb-6"
-                                    data-oid="6xj71hh"
-                                >
-                                    <li data-oid="pjsvwn2">School/college outreach</li>
-                                    <li data-oid="7b1.b-g">Media and content creation</li>
-                                    <li data-oid="-pxjb9l">Mentorship and follow-up</li>
-                                    <li data-oid="hnn:lxz">Children's ministry support</li>
-                                    <li data-oid="4l5e-a3">Event coordination and more</li>
+                                <ul className="list-disc list-inside space-y-1 text-gray-700 mb-6">
+                                    <li>School/college outreach</li>
+                                    <li>Media and content creation</li>
+                                    <li>Mentorship and follow-up</li>
+                                    <li>Children's ministry support</li>
+                                    <li>Event coordination and more</li>
                                 </ul>
                                 <button
                                     onClick={() => alert('Volunteer clicked!')}
                                     className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors w-full"
-                                    data-oid="6d-gl6g"
                                 >
                                     👉 Volunteer
                                 </button>
                             </div>
 
                             {/* Prayer Partner */}
-                            <div className="bg-white rounded-lg shadow-lg p-8" data-oid="k5fq6th">
-                                <h3
-                                    className="text-2xl font-semibold mb-4 text-purple-600 font-merriweather"
-                                    data-oid="0pgoi7x"
-                                >
-                                    <i
-                                        className="fas fa-praying-hands text-purple-600 mr-3"
-                                        data-oid="e6l0k2p"
-                                    ></i>
+                            <div className="bg-white rounded-lg shadow-lg p-8">
+                                <h3 className="text-2xl font-semibold mb-4 text-purple-600 font-merriweather">
+                                    <i className="fas fa-praying-hands text-purple-600 mr-3"></i>
                                     Become a Prayer Partner
                                 </h3>
-                                <p className="text-gray-700 leading-relaxed" data-oid="zzb1spw">
+                                <p className="text-gray-700 leading-relaxed">
                                     We believe every breakthrough begins in prayer. Partner with us
                                     by committing to pray regularly for our team, the youth we
                                     reach, and the families we serve. We'll keep you updated with
@@ -788,21 +575,12 @@ export default function Page() {
                             </div>
 
                             {/* Donate */}
-                            <div className="bg-white rounded-lg shadow-lg p-8" data-oid="ejt7hje">
-                                <h3
-                                    className="text-2xl font-semibold mb-4 text-yellow-600 font-merriweather"
-                                    data-oid="32ppruk"
-                                >
-                                    <i
-                                        className="fas fa-heart text-yellow-600 mr-3"
-                                        data-oid="z3ym774"
-                                    ></i>
+                            <div className="bg-white rounded-lg shadow-lg p-8">
+                                <h3 className="text-2xl font-semibold mb-4 text-yellow-600 font-merriweather">
+                                    <i className="fas fa-heart text-yellow-600 mr-3"></i>
                                     Support the Mission – Donate
                                 </h3>
-                                <p
-                                    className="text-gray-700 leading-relaxed mb-6"
-                                    data-oid="0p2u.3w"
-                                >
+                                <p className="text-gray-700 leading-relaxed mb-6">
                                     Your generosity fuels freedom. By partnering with us
                                     financially, you help us reach more youth, develop life-changing
                                     resources, provide counseling and mentorship, and host outreach
@@ -812,28 +590,18 @@ export default function Page() {
                                 <button
                                     onClick={() => alert('Donate clicked!')}
                                     className="bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors w-full"
-                                    data-oid="q8yjnpj"
                                 >
                                     👉 Donate
                                 </button>
                             </div>
                         </div>
 
-                        <div className="text-center" data-oid="zhrpfad">
-                            <h3
-                                className="text-3xl font-semibold mb-6 text-gray-800 font-merriweather"
-                                data-oid="ex8d4:9"
-                            >
-                                <i
-                                    className="fas fa-comments text-blue-600 mr-3"
-                                    data-oid="m7fzi.."
-                                ></i>
+                        <div className="text-center">
+                            <h3 className="text-3xl font-semibold mb-6 text-gray-800 font-merriweather">
+                                <i className="fas fa-comments text-blue-600 mr-3"></i>
                                 Together, Let's Build a Generation Full of Purpose
                             </h3>
-                            <p
-                                className="text-lg leading-relaxed text-gray-700 max-w-4xl mx-auto"
-                                data-oid="2h3hq8d"
-                            >
+                            <p className="text-lg leading-relaxed text-gray-700 max-w-4xl mx-auto">
                                 We believe in a future where addiction no longer defines lives,
                                 where children grow up knowing their identity in Christ, and where
                                 hope is louder than shame. Your involvement can help make that
@@ -845,127 +613,68 @@ export default function Page() {
                 </section>
 
                 {/* Contact Us Section */}
-                <section
-                    id="contact"
-                    className="py-20 px-4 sm:px-6 lg:px-8 bg-white"
-                    data-oid="aem6jms"
-                >
-                    <div className="max-w-7xl mx-auto" data-oid="935k6g4">
-                        <div className="text-center mb-16" data-oid="ymbyeql">
-                            <h2
-                                className="text-4xl md:text-5xl font-bold mb-6 text-gray-800 font-merriweather"
-                                data-oid="57qa95y"
-                            >
-                                <i
-                                    className="fas fa-phone text-blue-600 mr-4"
-                                    data-oid="mzwtear"
-                                ></i>
+                <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+                    <div className="max-w-7xl mx-auto">
+                        <div className="text-center mb-16">
+                            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-800 font-merriweather">
+                                <i className="fas fa-phone text-blue-600 mr-4"></i>
                                 Contact Us
                             </h2>
-                            <p
-                                className="text-lg text-gray-600 max-w-3xl mx-auto"
-                                data-oid="fl-rszj"
-                            >
+                            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                                 Ready to take the first step toward real freedom? We're here to
                                 listen, support, and walk alongside you. Reach out to us today.
                             </p>
                         </div>
 
-                        <div
-                            className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto"
-                            data-oid="ni2a.8j"
-                        >
+                        <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
                             {/* Contact Information */}
-                            <div className="space-y-8" data-oid="k0e0azk">
-                                <div data-oid="dajb9pf">
-                                    <h3
-                                        className="text-2xl font-semibold mb-6 text-gray-800"
-                                        data-oid="1mdglla"
-                                    >
+                            <div className="space-y-8">
+                                <div>
+                                    <h3 className="text-2xl font-semibold mb-6 text-gray-800">
                                         Get in Touch
                                     </h3>
-                                    <div className="space-y-6" data-oid="iq:af9f">
-                                        <div
-                                            className="flex items-start space-x-4"
-                                            data-oid="n805pc6"
-                                        >
-                                            <div
-                                                className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center"
-                                                data-oid="twjlb94"
-                                            >
-                                                <i
-                                                    className="fas fa-envelope text-blue-600 text-xl"
-                                                    data-oid="zxtj7qn"
-                                                ></i>
+                                    <div className="space-y-6">
+                                        <div className="flex items-start space-x-4">
+                                            <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                                                <i className="fas fa-envelope text-blue-600 text-xl"></i>
                                             </div>
-                                            <div data-oid="kykya-j">
-                                                <h4
-                                                    className="font-semibold text-gray-800 mb-1"
-                                                    data-oid="a_mr2jg"
-                                                >
+                                            <div>
+                                                <h4 className="font-semibold text-gray-800 mb-1">
                                                     Email Us
                                                 </h4>
-                                                <p className="text-gray-600" data-oid="54l.ln7">
+                                                <p className="text-gray-600">
                                                     info@realfreedom.org
                                                 </p>
-                                                <p className="text-gray-600" data-oid="_e_3s84">
+                                                <p className="text-gray-600">
                                                     support@realfreedom.org
                                                 </p>
                                             </div>
                                         </div>
 
-                                        <div
-                                            className="flex items-start space-x-4"
-                                            data-oid="d1.0-ku"
-                                        >
-                                            <div
-                                                className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center"
-                                                data-oid="0-yfw34"
-                                            >
-                                                <i
-                                                    className="fas fa-phone text-green-600 text-xl"
-                                                    data-oid="pkxpk-u"
-                                                ></i>
+                                        <div className="flex items-start space-x-4">
+                                            <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                                                <i className="fas fa-phone text-green-600 text-xl"></i>
                                             </div>
-                                            <div data-oid="ms2ila8">
-                                                <h4
-                                                    className="font-semibold text-gray-800 mb-1"
-                                                    data-oid="l.4ffv6"
-                                                >
+                                            <div>
+                                                <h4 className="font-semibold text-gray-800 mb-1">
                                                     Call Us
                                                 </h4>
-                                                <p className="text-gray-600" data-oid="xnhf3iw">
-                                                    +91 98765 43210
-                                                </p>
-                                                <p className="text-gray-600" data-oid="n1e5kil">
-                                                    +91 87654 32109
-                                                </p>
+                                                <p className="text-gray-600">+91 98765 43210</p>
+                                                <p className="text-gray-600">+91 87654 32109</p>
                                             </div>
                                         </div>
 
-                                        <div
-                                            className="flex items-start space-x-4"
-                                            data-oid="ci:essb"
-                                        >
-                                            <div
-                                                className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center"
-                                                data-oid="ahic3ie"
-                                            >
-                                                <i
-                                                    className="fas fa-map-marker-alt text-purple-600 text-xl"
-                                                    data-oid="v4w:uh4"
-                                                ></i>
+                                        <div className="flex items-start space-x-4">
+                                            <div className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                                                <i className="fas fa-map-marker-alt text-purple-600 text-xl"></i>
                                             </div>
-                                            <div data-oid="i09zn3w">
-                                                <h4
-                                                    className="font-semibold text-gray-800 mb-1"
-                                                    data-oid="lv-plvq"
-                                                >
+                                            <div>
+                                                <h4 className="font-semibold text-gray-800 mb-1">
                                                     Visit Us
                                                 </h4>
-                                                <p className="text-gray-600" data-oid="l_x_u3j">
+                                                <p className="text-gray-600">
                                                     Ooty Central Open Bible Church of God
-                                                    <br data-oid="t4d.kuy" />
+                                                    <br />
                                                     Ooty, Tamil Nadu, India
                                                 </p>
                                             </div>
@@ -973,21 +682,12 @@ export default function Page() {
                                     </div>
                                 </div>
 
-                                <div className="bg-blue-50 rounded-lg p-6" data-oid="w4i_o40">
-                                    <h4
-                                        className="font-semibold text-blue-800 mb-3"
-                                        data-oid="fay_4m5"
-                                    >
-                                        <i
-                                            className="fas fa-life-ring text-blue-800 mr-2"
-                                            data-oid="lfx8mzt"
-                                        ></i>
+                                <div className="bg-blue-50 rounded-lg p-6">
+                                    <h4 className="font-semibold text-blue-800 mb-3">
+                                        <i className="fas fa-life-ring text-blue-800 mr-2"></i>
                                         Need Immediate Support?
                                     </h4>
-                                    <p
-                                        className="text-blue-700 text-sm leading-relaxed"
-                                        data-oid="_bjs226"
-                                    >
+                                    <p className="text-blue-700 text-sm leading-relaxed">
                                         If you're struggling with addiction or need someone to talk
                                         to right now, don't hesitate to reach out. We provide
                                         confidential support and are here to help you take the first
@@ -997,20 +697,16 @@ export default function Page() {
                             </div>
 
                             {/* Contact Form */}
-                            <div className="bg-gray-50 rounded-xl p-8" data-oid="g89v0d-">
-                                <h3
-                                    className="text-2xl font-semibold mb-6 text-gray-800"
-                                    data-oid=":tie5f0"
-                                >
+                            <div className="bg-gray-50 rounded-xl p-8">
+                                <h3 className="text-2xl font-semibold mb-6 text-gray-800">
                                     Send Us a Message
                                 </h3>
-                                <form className="space-y-6" data-oid="1zwia3k">
-                                    <div className="grid md:grid-cols-2 gap-4" data-oid="x5siy18">
-                                        <div data-oid="igqgiy6">
+                                <form className="space-y-6">
+                                    <div className="grid md:grid-cols-2 gap-4">
+                                        <div>
                                             <label
                                                 htmlFor="firstName"
                                                 className="block text-sm font-medium text-gray-700 mb-2"
-                                                data-oid="b.bkivn"
                                             >
                                                 First Name *
                                             </label>
@@ -1021,14 +717,12 @@ export default function Page() {
                                                 required
                                                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                                                 placeholder="Your first name"
-                                                data-oid="1628zs9"
                                             />
                                         </div>
-                                        <div data-oid="i0834ad">
+                                        <div>
                                             <label
                                                 htmlFor="lastName"
                                                 className="block text-sm font-medium text-gray-700 mb-2"
-                                                data-oid="at37ehv"
                                             >
                                                 Last Name *
                                             </label>
@@ -1039,16 +733,14 @@ export default function Page() {
                                                 required
                                                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                                                 placeholder="Your last name"
-                                                data-oid="k22.7g_"
                                             />
                                         </div>
                                     </div>
 
-                                    <div data-oid="xbsg41y">
+                                    <div>
                                         <label
                                             htmlFor="email"
                                             className="block text-sm font-medium text-gray-700 mb-2"
-                                            data-oid="3lub45a"
                                         >
                                             Email Address *
                                         </label>
@@ -1059,15 +751,13 @@ export default function Page() {
                                             required
                                             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                                             placeholder="your.email@example.com"
-                                            data-oid="12cmirv"
                                         />
                                     </div>
 
-                                    <div data-oid="e5bhca:">
+                                    <div>
                                         <label
                                             htmlFor="phone"
                                             className="block text-sm font-medium text-gray-700 mb-2"
-                                            data-oid="ci1fr4p"
                                         >
                                             Phone Number
                                         </label>
@@ -1077,24 +767,21 @@ export default function Page() {
                                             name="phone"
                                             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                                             placeholder="+91 98765 43210"
-                                            data-oid="uviy855"
                                         />
                                     </div>
 
-                                    <div className="relative" data-dropdown data-oid="4qhxhc_">
+                                    <div className="relative" data-dropdown>
                                         <label
                                             htmlFor="subject"
                                             className="block text-sm font-medium text-gray-700 mb-2"
-                                            data-oid="q6pl6h."
                                         >
                                             Subject *
                                         </label>
-                                        <div className="relative" data-oid="f_4g9nc">
+                                        <div className="relative">
                                             <button
                                                 type="button"
                                                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                                                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors bg-white text-left flex items-center justify-between"
-                                                data-oid="hlcxirw"
                                             >
                                                 <span
                                                     className={
@@ -1102,13 +789,11 @@ export default function Page() {
                                                             ? 'text-gray-900 flex items-center'
                                                             : 'text-gray-500'
                                                     }
-                                                    data-oid="g6wzjxd"
                                                 >
                                                     {selectedSubject ? (
                                                         <>
                                                             <i
                                                                 className={`${subjectOptions.find((opt) => opt.value === selectedSubject)?.icon} ${subjectOptions.find((opt) => opt.value === selectedSubject)?.color} mr-2`}
-                                                                data-oid="ivng1bo"
                                                             ></i>
                                                             {
                                                                 subjectOptions.find(
@@ -1129,23 +814,18 @@ export default function Page() {
                                                     fill="none"
                                                     stroke="currentColor"
                                                     viewBox="0 0 24 24"
-                                                    data-oid="4mfirrd"
                                                 >
                                                     <path
                                                         strokeLinecap="round"
                                                         strokeLinejoin="round"
                                                         strokeWidth={2}
                                                         d="M19 9l-7 7-7-7"
-                                                        data-oid="uygowjv"
                                                     />
                                                 </svg>
                                             </button>
 
                                             {isDropdownOpen && (
-                                                <div
-                                                    className="absolute z-10 w-full mt-1 bg-white border border-gray-300 rounded-lg shadow-lg max-h-60 overflow-auto"
-                                                    data-oid="zop0kfd"
-                                                >
+                                                <div className="absolute z-10 w-full mt-1 bg-white border border-gray-300 rounded-lg shadow-lg max-h-60 overflow-auto">
                                                     {subjectOptions.map((option) => (
                                                         <button
                                                             key={option.value}
@@ -1154,26 +834,15 @@ export default function Page() {
                                                                 handleSubjectSelect(option)
                                                             }
                                                             className="w-full px-4 py-3 text-left hover:bg-blue-50 focus:bg-blue-50 focus:outline-none transition-colors border-b border-gray-100 last:border-b-0"
-                                                            data-oid="m-hf:8r"
                                                         >
-                                                            <div
-                                                                className="flex flex-col"
-                                                                data-oid="6uypjrv"
-                                                            >
-                                                                <span
-                                                                    className="font-medium text-gray-900 flex items-center"
-                                                                    data-oid="5q2-.gt"
-                                                                >
+                                                            <div className="flex flex-col">
+                                                                <span className="font-medium text-gray-900 flex items-center">
                                                                     <i
                                                                         className={`${option.icon} ${option.color} mr-3`}
-                                                                        data-oid="-pimtuw"
                                                                     ></i>
                                                                     {option.label}
                                                                 </span>
-                                                                <span
-                                                                    className="text-sm text-gray-500 mt-1 ml-6"
-                                                                    data-oid="w_.ji_t"
-                                                                >
+                                                                <span className="text-sm text-gray-500 mt-1 ml-6">
                                                                     {option.description}
                                                                 </span>
                                                             </div>
@@ -1187,15 +856,13 @@ export default function Page() {
                                             name="subject"
                                             value={selectedSubject}
                                             required
-                                            data-oid="yfqpy93"
                                         />
                                     </div>
 
-                                    <div data-oid="-t_j56r">
+                                    <div>
                                         <label
                                             htmlFor="message"
                                             className="block text-sm font-medium text-gray-700 mb-2"
-                                            data-oid="8xbkjvz"
                                         >
                                             Message *
                                         </label>
@@ -1206,25 +873,19 @@ export default function Page() {
                                             required
                                             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors resize-vertical"
                                             placeholder="Please share your message, questions, or how we can help you..."
-                                            data-oid="rw6e9l9"
                                         ></textarea>
                                     </div>
 
-                                    <div className="flex items-start space-x-3" data-oid="3us1-:g">
+                                    <div className="flex items-start space-x-3">
                                         <input
                                             type="checkbox"
                                             id="privacy"
                                             name="privacy"
                                             required
                                             className="mt-1 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-                                            data-oid="2sicsb."
                                         />
 
-                                        <label
-                                            htmlFor="privacy"
-                                            className="text-sm text-gray-600"
-                                            data-oid="4bchfug"
-                                        >
+                                        <label htmlFor="privacy" className="text-sm text-gray-600">
                                             I agree to the privacy policy and understand that my
                                             information will be kept confidential. *
                                         </label>
@@ -1233,27 +894,18 @@ export default function Page() {
                                     <button
                                         type="submit"
                                         className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-6 rounded-lg transition-colors duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-                                        data-oid="epwu:up"
                                     >
-                                        <i
-                                            className="fas fa-paper-plane mr-2"
-                                            data-oid="q4o4r:n"
-                                        ></i>
+                                        <i className="fas fa-paper-plane mr-2"></i>
                                         Send Message
                                     </button>
                                 </form>
 
-                                <div
-                                    className="mt-6 p-4 bg-green-50 rounded-lg border border-green-200"
-                                    data-oid="eotxxmo"
-                                >
-                                    <p className="text-green-800 text-sm" data-oid="ky-n0.4">
-                                        <i className="fas fa-lock mr-2" data-oid="nrjmv78"></i>
-                                        <strong data-oid="km.x_gv">
-                                            Your privacy matters:
-                                        </strong>{' '}
-                                        All communications are confidential. We're here to support
-                                        you without judgment.
+                                <div className="mt-6 p-4 bg-green-50 rounded-lg border border-green-200">
+                                    <p className="text-green-800 text-sm">
+                                        <i className="fas fa-lock mr-2"></i>
+                                        <strong>Your privacy matters:</strong> All communications
+                                        are confidential. We're here to support you without
+                                        judgment.
                                     </p>
                                 </div>
                             </div>
@@ -1263,18 +915,15 @@ export default function Page() {
             </main>
 
             {/* Footer */}
-            <footer
-                className="bg-gray-800 text-white py-12 px-4 sm:px-6 lg:px-8"
-                data-oid="g89m.n7"
-            >
-                <div className="max-w-7xl mx-auto text-center" data-oid="fr70qp8">
-                    <div className="text-2xl font-bold mb-4 font-merriweather" data-oid="le4apuw">
+            <footer className="bg-gray-800 text-white py-12 px-4 sm:px-6 lg:px-8">
+                <div className="max-w-7xl mx-auto text-center">
+                    <div className="text-2xl font-bold mb-4 font-merriweather">
                         The Real Freedom
                     </div>
-                    <p className="text-gray-300 mb-4" data-oid="iqvsqsd">
+                    <p className="text-gray-300 mb-4">
                         Freedom Through Christ – Break the Chains, Embrace Life
                     </p>
-                    <p className="text-gray-400 text-sm" data-oid="_n2xxn9">
+                    <p className="text-gray-400 text-sm">
                         © 2024 The Real Freedom Ministry. All rights reserved.
                     </p>
                 </div>
