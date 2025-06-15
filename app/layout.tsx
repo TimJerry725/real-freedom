@@ -1,5 +1,13 @@
 import type { Metadata } from 'next';
+import { Inter, Merriweather } from 'next/font/google';
 import './globals.css';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+const merriweather = Merriweather({
+    weight: ['300', '400', '700', '900'],
+    subsets: ['latin'],
+    variable: '--font-merriweather',
+});
 
 export const metadata: Metadata = {
     title: 'The Real Freedom - Ministry',
@@ -10,14 +18,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     return (
         <html lang="en">
             <head>
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-
-                <link
-                    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Inter:wght@300;400;500;600;700&display=swap"
-                    rel="stylesheet"
-                />
-
                 <link
                     rel="stylesheet"
                     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -25,7 +25,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                     crossOrigin="anonymous"
                 />
             </head>
-            <body className="font-inter">{children}</body>
+            <body className={`${inter.variable} ${merriweather.variable} font-sans`}>{children}</body>
         </html>
     );
 }

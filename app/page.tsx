@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image'
 
 export default function Page() {
     const [isVisible, setIsVisible] = useState(false);
@@ -167,7 +168,7 @@ export default function Page() {
                         </h2>
 
                         <p className="text-xl md:text-2xl font-medium mb-8 text-blue-700 max-w-4xl mx-auto">
-                            "Freedom Through Christ – Break the Chains, Embrace Life"
+                            &ldquo;Freedom Through Christ – Break the Chains, Embrace Life&rdquo;
                         </p>
 
                         <div className="max-w-4xl mx-auto mb-12">
@@ -220,7 +221,7 @@ export default function Page() {
                                     More Than Breaking Free
                                 </h3>
                                 <p className="text-lg leading-relaxed text-gray-700">
-                                    Freedom isn't just about walking away from addiction—it's about
+                                    Freedom isn&apos;t just about walking away from addiction—it&apos;s about
                                     walking into something greater. We envision lives not only set
                                     free from the chains of substance abuse and pornography, but
                                     restored into their God-given identity. Every person was created
