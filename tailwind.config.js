@@ -11,6 +11,9 @@ module.exports = {
                 sans: ['var(--font-inter)'],
                 merriweather: ['var(--font-merriweather)'],
             },
+            borderColor: {
+                border: 'hsl(var(--border))',
+            },
         },
     },
     plugins: [],
